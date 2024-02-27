@@ -1,0 +1,224 @@
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Feb 26, 2024 14:24:29
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] port 'probe121' remains unconnected for this instance (VERI-1927) (E:/intern/project/apb_final/work_dbg/debug_top.v:584)
+[EFX-0011 VERI-WARNING] expression size 256 truncated to fit in target size 64 (VERI-1209) (E:/intern/project/apb_final/work_dbg/debug_top.v:4053)
+[EFX-0011 VERI-WARNING] actual bit length 32 differs from formal bit length 1 for port 'trigger_in' (VERI-1330) (E:/intern/project/apb_final/work_dbg/debug_top.v:4828)
+[EFX-0011 VERI-WARNING] input port 'probe121[0]' remains unconnected for this instance (VDB-1053) (E:/intern/project/apb_final/work_dbg/debug_top.v:443)
+[EFX-0200 WARNING] Removing redundant signal : compared_in[0]. (E:/intern/project/apb_final/work_dbg/debug_top.v:5923)
+[EFX-0200 WARNING] Removing redundant signal : mask_in[0]. (E:/intern/project/apb_final/work_dbg/debug_top.v:5924)
+[EFX-0200 WARNING] Removing redundant signal : trigger_in. (E:/intern/project/apb_final/work_dbg/debug_top.v:6134)
+[EFX-0200 WARNING] Removing redundant signal : trigger_in. (E:/intern/project/apb_final/work_dbg/debug_top.v:6134)
+[EFX-0200 WARNING] Removing redundant signal : din[1278]. (E:/intern/project/apb_final/work_dbg/debug_top.v:5026)
+[EFX-0200 WARNING] Removing redundant signal : trig_out. (E:/intern/project/apb_final/work_dbg/debug_top.v:5305)
+[EFX-0200 WARNING] Removing redundant signal : trig_out_ack. (E:/intern/project/apb_final/work_dbg/debug_top.v:5306)
+[EFX-0266 WARNING] Module Instance 'genblk2.global_capture_inst' input pin tied to constant (trigger_in=0).
+[EFX-0200 WARNING] Removing redundant signal : bscan_DRCK. (E:/intern/project/apb_final/work_dbg/debug_top.v:1490)
+[EFX-0200 WARNING] Removing redundant signal : bscan_RUNTEST. (E:/intern/project/apb_final/work_dbg/debug_top.v:1492)
+[EFX-0200 WARNING] Removing redundant signal : bscan_SEL. (E:/intern/project/apb_final/work_dbg/debug_top.v:1493)
+[EFX-0200 WARNING] Removing redundant signal : bscan_TMS. (E:/intern/project/apb_final/work_dbg/debug_top.v:1497)
+[EFX-0200 WARNING] Removing redundant signal : trig_in_ack. (E:/intern/project/apb_final/work_dbg/debug_top.v:1508)
+[EFX-0200 WARNING] Removing redundant signal : bscan_CAPTURE. (E:/intern/project/apb_final/work_dbg/debug_top.v:741)
+[EFX-0200 WARNING] Removing redundant signal : bscan_DRCK. (E:/intern/project/apb_final/work_dbg/debug_top.v:742)
+[EFX-0200 WARNING] Removing redundant signal : bscan_RUNTEST. (E:/intern/project/apb_final/work_dbg/debug_top.v:744)
+[EFX-0200 WARNING] Removing redundant signal : bscan_TMS. (E:/intern/project/apb_final/work_dbg/debug_top.v:749)
+[EFX-0266 WARNING] Module Instance 'la0' input pin tied to constant (trig_in=0).
+[EFX-0266 WARNING] Module Instance 'la0' input pin tied to constant (trig_out_ack=0).
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe121[0]'. (E:/intern/project/apb_final/work_dbg/debug_top.v:443)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe122[0]'. (E:/intern/project/apb_final/work_dbg/debug_top.v:443)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe123[0]'. (E:/intern/project/apb_final/work_dbg/debug_top.v:443)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe124[0]'. (E:/intern/project/apb_final/work_dbg/debug_top.v:443)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe125[0]'. (E:/intern/project/apb_final/work_dbg/debug_top.v:443)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe126[0]'. (E:/intern/project/apb_final/work_dbg/debug_top.v:443)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe127[0]'. (E:/intern/project/apb_final/work_dbg/debug_top.v:443)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe128[0]'. (E:/intern/project/apb_final/work_dbg/debug_top.v:443)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe129[0]'. (E:/intern/project/apb_final/work_dbg/debug_top.v:443)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe130[0]'. (E:/intern/project/apb_final/work_dbg/debug_top.v:443)
+[EFX-0011 VERI-WARNING] Input/Inout Port bscan_DRCK is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port bscan_RUNTEST is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port bscan_TMS is unconnected and will be removed 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Feb 26, 2024 14:26:46
+///////////////////////////////////
+
+[EFX-0200 WARNING] Removing redundant signal : r_Rx_Byte[8]. (E:\intern\project\apb_final\uartrx.v:21)
+[EFX-0200 WARNING] Removing redundant signal : i[31]. (E:\intern\project\apb_final\sram.v:19)
+[EFX-0200 WARNING] Removing redundant signal : i[30]. (E:\intern\project\apb_final\sram.v:19)
+[EFX-0200 WARNING] Removing redundant signal : i[29]. (E:\intern\project\apb_final\sram.v:19)
+[EFX-0200 WARNING] Removing redundant signal : i[28]. (E:\intern\project\apb_final\sram.v:19)
+[EFX-0200 WARNING] Removing redundant signal : i[27]. (E:\intern\project\apb_final\sram.v:19)
+[EFX-0200 WARNING] Removing redundant signal : i[26]. (E:\intern\project\apb_final\sram.v:19)
+[EFX-0200 WARNING] Removing redundant signal : i[25]. (E:\intern\project\apb_final\sram.v:19)
+[EFX-0200 WARNING] Removing redundant signal : i[24]. (E:\intern\project\apb_final\sram.v:19)
+[EFX-0200 WARNING] Removing redundant signal : i[23]. (E:\intern\project\apb_final\sram.v:19)
+[EFX-0200 WARNING] Removing redundant signal : i[22]. (E:\intern\project\apb_final\sram.v:19)
+[EFX-0200 WARNING] Removing redundant signal : i[21]. (E:\intern\project\apb_final\sram.v:19)
+[EFX-0200 WARNING] Removing redundant signal : i[20]. (E:\intern\project\apb_final\sram.v:19)
+[EFX-0200 WARNING] Removing redundant signal : i[19]. (E:\intern\project\apb_final\sram.v:19)
+[EFX-0200 WARNING] Removing redundant signal : i[18]. (E:\intern\project\apb_final\sram.v:19)
+[EFX-0200 WARNING] Removing redundant signal : i[17]. (E:\intern\project\apb_final\sram.v:19)
+[EFX-0200 WARNING] Removing redundant signal : i[16]. (E:\intern\project\apb_final\sram.v:19)
+[EFX-0200 WARNING] Removing redundant signal : i[15]. (E:\intern\project\apb_final\sram.v:19)
+[EFX-0200 WARNING] Removing redundant signal : i[14]. (E:\intern\project\apb_final\sram.v:19)
+[EFX-0200 WARNING] Removing redundant signal : i[13]. (E:\intern\project\apb_final\sram.v:19)
+[EFX-0266 WARNING] Module Instance 'apb_master1' input pin tied to constant (ext_addr[0]=0).
+[EFX-0266 WARNING] Module Instance 'apb_master1' input pin tied to constant (ext_addr[1]=1).
+[EFX-0266 WARNING] Module Instance 'apb_master1' input pin tied to constant (ext_addr[2]=1).
+[EFX-0266 WARNING] Module Instance 'apb_master1' input pin tied to constant (ext_addr[3]=0).
+[EFX-0266 WARNING] Module Instance 'apb_master1' input pin tied to constant (ext_addr[4]=0).
+[EFX-0266 WARNING] Module Instance 'apb_master1' input pin tied to constant (ext_addr[5]=1).
+[EFX-0266 WARNING] Module Instance 'apb_master1' input pin tied to constant (ext_addr[6]=1).
+[EFX-0266 WARNING] Module Instance 'apb_master1' input pin tied to constant (ext_addr[7]=0).
+[EFX-0266 WARNING] Module Instance 'apb_master1' input pin tied to constant (ext_addr[8]=1).
+[EFX-0266 WARNING] Module Instance 'apb_master1' input pin tied to constant (ext_addr[9]=0).
+[EFX-0266 WARNING] Module Instance 'apb_master1' input pin tied to constant (ext_addr[10]=1).
+[EFX-0266 WARNING] Module Instance 'apb_master1' input pin tied to constant (ext_addr[11]=0).
+[EFX-0266 WARNING] Module Instance 'apb_master1' input pin tied to constant (ext_addr[12]=1).
+[EFX-0266 WARNING] Module Instance 'apb_master1' input pin tied to constant (ext_addr[13]=0).
+[EFX-0266 WARNING] Module Instance 'apb_master1' input pin tied to constant (ext_addr[14]=1).
+[EFX-0266 WARNING] Module Instance 'apb_master1' input pin tied to constant (ext_addr[15]=0).
+[EFX-0266 WARNING] Module Instance 'apb_master1' input pin tied to constant (ext_addr[16]=0).
+[EFX-0266 WARNING] Module Instance 'apb_master1' input pin tied to constant (ext_addr[17]=0).
+[EFX-0266 WARNING] Module Instance 'apb_master1' input pin tied to constant (ext_addr[18]=1).
+[EFX-0266 WARNING] Module Instance 'apb_master1' input pin tied to constant (ext_addr[19]=0).
+[EFX-0266 WARNING] Module Instance 'apb_master1' input pin tied to constant (ext_addr[20]=1).
+[EFX-0266 WARNING] Module Instance 'apb_master1' input pin tied to constant (ext_addr[21]=1).
+[EFX-0266 WARNING] Module Instance 'apb_master1' input pin tied to constant (ext_addr[22]=0).
+[EFX-0266 WARNING] Module Instance 'apb_master1' input pin tied to constant (ext_addr[23]=0).
+[EFX-0266 WARNING] Module Instance 'apb_master1' input pin tied to constant (ext_addr[24]=0).
+[EFX-0266 WARNING] Module Instance 'apb_master1' input pin tied to constant (ext_addr[25]=1).
+[EFX-0266 WARNING] Module Instance 'apb_master1' input pin tied to constant (ext_addr[26]=0).
+[EFX-0266 WARNING] Module Instance 'apb_master1' input pin tied to constant (ext_addr[27]=0).
+[EFX-0266 WARNING] Module Instance 'apb_master1' input pin tied to constant (ext_addr[28]=1).
+[EFX-0266 WARNING] Module Instance 'apb_master1' input pin tied to constant (ext_addr[29]=0).
+[EFX-0266 WARNING] Module Instance 'apb_master1' input pin tied to constant (ext_addr[30]=0).
+[EFX-0266 WARNING] Module Instance 'apb_master1' input pin tied to constant (ext_addr[31]=0).
+[EFX-0266 WARNING] Module Instance 'apb_master1' input pin tied to constant (pstrobe[0]=1).
+[EFX-0266 WARNING] Module Instance 'apb_master1' input pin tied to constant (pstrobe[1]=1).
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'apb_master1.slv_prdata[31]'. (E:\intern\project\apb_final\top.v:87)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'apb_master1.slv_prdata[30]'. (E:\intern\project\apb_final\top.v:87)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'apb_master1.slv_prdata[29]'. (E:\intern\project\apb_final\top.v:87)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'apb_master1.slv_prdata[28]'. (E:\intern\project\apb_final\top.v:87)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'apb_master1.slv_prdata[27]'. (E:\intern\project\apb_final\top.v:87)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'apb_master1.slv_prdata[26]'. (E:\intern\project\apb_final\top.v:87)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'apb_master1.slv_prdata[25]'. (E:\intern\project\apb_final\top.v:87)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'apb_master1.slv_prdata[24]'. (E:\intern\project\apb_final\top.v:87)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'apb_master1.slv_prdata[23]'. (E:\intern\project\apb_final\top.v:87)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'apb_master1.slv_prdata[22]'. (E:\intern\project\apb_final\top.v:87)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Feb 26, 2024 15:57:24
+///////////////////////////////////
+
+[EFX-0011 VERI-WARNING] port 'probe121' remains unconnected for this instance (VERI-1927) (E:/intern/project/apb_final/work_dbg/debug_top.v:584)
+[EFX-0011 VERI-WARNING] expression size 256 truncated to fit in target size 64 (VERI-1209) (E:/intern/project/apb_final/work_dbg/debug_top.v:4053)
+[EFX-0011 VERI-WARNING] actual bit length 32 differs from formal bit length 1 for port 'trigger_in' (VERI-1330) (E:/intern/project/apb_final/work_dbg/debug_top.v:4828)
+[EFX-0011 VERI-WARNING] input port 'probe121[0]' remains unconnected for this instance (VDB-1053) (E:/intern/project/apb_final/work_dbg/debug_top.v:443)
+[EFX-0200 WARNING] Removing redundant signal : compared_in[0]. (E:/intern/project/apb_final/work_dbg/debug_top.v:5923)
+[EFX-0200 WARNING] Removing redundant signal : mask_in[0]. (E:/intern/project/apb_final/work_dbg/debug_top.v:5924)
+[EFX-0200 WARNING] Removing redundant signal : trigger_in. (E:/intern/project/apb_final/work_dbg/debug_top.v:6134)
+[EFX-0200 WARNING] Removing redundant signal : trigger_in. (E:/intern/project/apb_final/work_dbg/debug_top.v:6134)
+[EFX-0200 WARNING] Removing redundant signal : din[1278]. (E:/intern/project/apb_final/work_dbg/debug_top.v:5026)
+[EFX-0200 WARNING] Removing redundant signal : trig_out. (E:/intern/project/apb_final/work_dbg/debug_top.v:5305)
+[EFX-0200 WARNING] Removing redundant signal : trig_out_ack. (E:/intern/project/apb_final/work_dbg/debug_top.v:5306)
+[EFX-0266 WARNING] Module Instance 'genblk2.global_capture_inst' input pin tied to constant (trigger_in=0).
+[EFX-0200 WARNING] Removing redundant signal : bscan_DRCK. (E:/intern/project/apb_final/work_dbg/debug_top.v:1490)
+[EFX-0200 WARNING] Removing redundant signal : bscan_RUNTEST. (E:/intern/project/apb_final/work_dbg/debug_top.v:1492)
+[EFX-0200 WARNING] Removing redundant signal : bscan_SEL. (E:/intern/project/apb_final/work_dbg/debug_top.v:1493)
+[EFX-0200 WARNING] Removing redundant signal : bscan_TMS. (E:/intern/project/apb_final/work_dbg/debug_top.v:1497)
+[EFX-0200 WARNING] Removing redundant signal : trig_in_ack. (E:/intern/project/apb_final/work_dbg/debug_top.v:1508)
+[EFX-0200 WARNING] Removing redundant signal : bscan_CAPTURE. (E:/intern/project/apb_final/work_dbg/debug_top.v:741)
+[EFX-0200 WARNING] Removing redundant signal : bscan_DRCK. (E:/intern/project/apb_final/work_dbg/debug_top.v:742)
+[EFX-0200 WARNING] Removing redundant signal : bscan_RUNTEST. (E:/intern/project/apb_final/work_dbg/debug_top.v:744)
+[EFX-0200 WARNING] Removing redundant signal : bscan_TMS. (E:/intern/project/apb_final/work_dbg/debug_top.v:749)
+[EFX-0266 WARNING] Module Instance 'la0' input pin tied to constant (trig_in=0).
+[EFX-0266 WARNING] Module Instance 'la0' input pin tied to constant (trig_out_ack=0).
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe121[0]'. (E:/intern/project/apb_final/work_dbg/debug_top.v:443)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe122[0]'. (E:/intern/project/apb_final/work_dbg/debug_top.v:443)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe123[0]'. (E:/intern/project/apb_final/work_dbg/debug_top.v:443)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe124[0]'. (E:/intern/project/apb_final/work_dbg/debug_top.v:443)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe125[0]'. (E:/intern/project/apb_final/work_dbg/debug_top.v:443)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe126[0]'. (E:/intern/project/apb_final/work_dbg/debug_top.v:443)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe127[0]'. (E:/intern/project/apb_final/work_dbg/debug_top.v:443)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe128[0]'. (E:/intern/project/apb_final/work_dbg/debug_top.v:443)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe129[0]'. (E:/intern/project/apb_final/work_dbg/debug_top.v:443)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'la0.probe130[0]'. (E:/intern/project/apb_final/work_dbg/debug_top.v:443)
+[EFX-0011 VERI-WARNING] Input/Inout Port bscan_DRCK is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port bscan_RUNTEST is unconnected and will be removed 
+[EFX-0011 VERI-WARNING] Input/Inout Port bscan_TMS is unconnected and will be removed 
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Feb 26, 2024 16:00:04
+///////////////////////////////////
+
+[EFX-0200 WARNING] Removing redundant signal : r_Rx_Byte[8]. (E:\intern\project\apb_final\uartrx.v:21)
+[EFX-0200 WARNING] Removing redundant signal : i[31]. (E:\intern\project\apb_final\sram.v:19)
+[EFX-0200 WARNING] Removing redundant signal : i[30]. (E:\intern\project\apb_final\sram.v:19)
+[EFX-0200 WARNING] Removing redundant signal : i[29]. (E:\intern\project\apb_final\sram.v:19)
+[EFX-0200 WARNING] Removing redundant signal : i[28]. (E:\intern\project\apb_final\sram.v:19)
+[EFX-0200 WARNING] Removing redundant signal : i[27]. (E:\intern\project\apb_final\sram.v:19)
+[EFX-0200 WARNING] Removing redundant signal : i[26]. (E:\intern\project\apb_final\sram.v:19)
+[EFX-0200 WARNING] Removing redundant signal : i[25]. (E:\intern\project\apb_final\sram.v:19)
+[EFX-0200 WARNING] Removing redundant signal : i[24]. (E:\intern\project\apb_final\sram.v:19)
+[EFX-0200 WARNING] Removing redundant signal : i[23]. (E:\intern\project\apb_final\sram.v:19)
+[EFX-0200 WARNING] Removing redundant signal : i[22]. (E:\intern\project\apb_final\sram.v:19)
+[EFX-0200 WARNING] Removing redundant signal : i[21]. (E:\intern\project\apb_final\sram.v:19)
+[EFX-0200 WARNING] Removing redundant signal : i[20]. (E:\intern\project\apb_final\sram.v:19)
+[EFX-0200 WARNING] Removing redundant signal : i[19]. (E:\intern\project\apb_final\sram.v:19)
+[EFX-0200 WARNING] Removing redundant signal : i[18]. (E:\intern\project\apb_final\sram.v:19)
+[EFX-0200 WARNING] Removing redundant signal : i[17]. (E:\intern\project\apb_final\sram.v:19)
+[EFX-0200 WARNING] Removing redundant signal : i[16]. (E:\intern\project\apb_final\sram.v:19)
+[EFX-0200 WARNING] Removing redundant signal : i[15]. (E:\intern\project\apb_final\sram.v:19)
+[EFX-0200 WARNING] Removing redundant signal : i[14]. (E:\intern\project\apb_final\sram.v:19)
+[EFX-0200 WARNING] Removing redundant signal : i[13]. (E:\intern\project\apb_final\sram.v:19)
+[EFX-0266 WARNING] Module Instance 'apb_master1' input pin tied to constant (ext_addr[0]=0).
+[EFX-0266 WARNING] Module Instance 'apb_master1' input pin tied to constant (ext_addr[1]=1).
+[EFX-0266 WARNING] Module Instance 'apb_master1' input pin tied to constant (ext_addr[2]=1).
+[EFX-0266 WARNING] Module Instance 'apb_master1' input pin tied to constant (ext_addr[3]=0).
+[EFX-0266 WARNING] Module Instance 'apb_master1' input pin tied to constant (ext_addr[4]=0).
+[EFX-0266 WARNING] Module Instance 'apb_master1' input pin tied to constant (ext_addr[5]=1).
+[EFX-0266 WARNING] Module Instance 'apb_master1' input pin tied to constant (ext_addr[6]=1).
+[EFX-0266 WARNING] Module Instance 'apb_master1' input pin tied to constant (ext_addr[7]=0).
+[EFX-0266 WARNING] Module Instance 'apb_master1' input pin tied to constant (ext_addr[8]=1).
+[EFX-0266 WARNING] Module Instance 'apb_master1' input pin tied to constant (ext_addr[9]=0).
+[EFX-0266 WARNING] Module Instance 'apb_master1' input pin tied to constant (ext_addr[10]=1).
+[EFX-0266 WARNING] Module Instance 'apb_master1' input pin tied to constant (ext_addr[11]=0).
+[EFX-0266 WARNING] Module Instance 'apb_master1' input pin tied to constant (ext_addr[12]=1).
+[EFX-0266 WARNING] Module Instance 'apb_master1' input pin tied to constant (ext_addr[13]=0).
+[EFX-0266 WARNING] Module Instance 'apb_master1' input pin tied to constant (ext_addr[14]=1).
+[EFX-0266 WARNING] Module Instance 'apb_master1' input pin tied to constant (ext_addr[15]=0).
+[EFX-0266 WARNING] Module Instance 'apb_master1' input pin tied to constant (ext_addr[16]=0).
+[EFX-0266 WARNING] Module Instance 'apb_master1' input pin tied to constant (ext_addr[17]=0).
+[EFX-0266 WARNING] Module Instance 'apb_master1' input pin tied to constant (ext_addr[18]=1).
+[EFX-0266 WARNING] Module Instance 'apb_master1' input pin tied to constant (ext_addr[19]=0).
+[EFX-0266 WARNING] Module Instance 'apb_master1' input pin tied to constant (ext_addr[20]=1).
+[EFX-0266 WARNING] Module Instance 'apb_master1' input pin tied to constant (ext_addr[21]=1).
+[EFX-0266 WARNING] Module Instance 'apb_master1' input pin tied to constant (ext_addr[22]=0).
+[EFX-0266 WARNING] Module Instance 'apb_master1' input pin tied to constant (ext_addr[23]=0).
+[EFX-0266 WARNING] Module Instance 'apb_master1' input pin tied to constant (ext_addr[24]=0).
+[EFX-0266 WARNING] Module Instance 'apb_master1' input pin tied to constant (ext_addr[25]=1).
+[EFX-0266 WARNING] Module Instance 'apb_master1' input pin tied to constant (ext_addr[26]=0).
+[EFX-0266 WARNING] Module Instance 'apb_master1' input pin tied to constant (ext_addr[27]=0).
+[EFX-0266 WARNING] Module Instance 'apb_master1' input pin tied to constant (ext_addr[28]=1).
+[EFX-0266 WARNING] Module Instance 'apb_master1' input pin tied to constant (ext_addr[29]=0).
+[EFX-0266 WARNING] Module Instance 'apb_master1' input pin tied to constant (ext_addr[30]=0).
+[EFX-0266 WARNING] Module Instance 'apb_master1' input pin tied to constant (ext_addr[31]=0).
+[EFX-0266 WARNING] Module Instance 'apb_master1' input pin tied to constant (pstrobe[0]=1).
+[EFX-0266 WARNING] Module Instance 'apb_master1' input pin tied to constant (pstrobe[1]=1).
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'apb_master1.slv_prdata[31]'. (E:\intern\project\apb_final\top.v:87)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'apb_master1.slv_prdata[30]'. (E:\intern\project\apb_final\top.v:87)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'apb_master1.slv_prdata[29]'. (E:\intern\project\apb_final\top.v:87)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'apb_master1.slv_prdata[28]'. (E:\intern\project\apb_final\top.v:87)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'apb_master1.slv_prdata[27]'. (E:\intern\project\apb_final\top.v:87)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'apb_master1.slv_prdata[26]'. (E:\intern\project\apb_final\top.v:87)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'apb_master1.slv_prdata[25]'. (E:\intern\project\apb_final\top.v:87)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'apb_master1.slv_prdata[24]'. (E:\intern\project\apb_final\top.v:87)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'apb_master1.slv_prdata[23]'. (E:\intern\project\apb_final\top.v:87)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'apb_master1.slv_prdata[22]'. (E:\intern\project\apb_final\top.v:87)

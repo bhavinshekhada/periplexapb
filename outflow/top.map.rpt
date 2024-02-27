@@ -1,0 +1,546 @@
+Efinity Synthesis report for project top
+Version: 2023.1.150
+Generated at: Feb 26, 2024 16:00:04
+Copyright (C) 2013 - 2023  Inc. All rights reserved.
+
+### ### ### ### ### ### ### ### ### ### ### ### ### ### ###
+Top-level Entity Name : top
+
+### ### File List (begin) ### ### ###
+### ### File List (end) ### ### ###
+
+
+### ### EFX_FF CE enables (begin) ### ### ###
+Total number of enable signals: 338
+Total number of FFs with enable signals: 3647
+CE signal <uartrx_1/n510>, number of controlling flip flops: 1
+CE signal <ceg_net72>, number of controlling flip flops: 11
+CE signal <ceg_net465>, number of controlling flip flops: 1
+CE signal <ceg_net371>, number of controlling flip flops: 3
+CE signal <uartrx_1/n495>, number of controlling flip flops: 1
+CE signal <uartrx_1/n497>, number of controlling flip flops: 1
+CE signal <uartrx_1/n499>, number of controlling flip flops: 1
+CE signal <uartrx_1/n501>, number of controlling flip flops: 1
+CE signal <uartrx_1/n503>, number of controlling flip flops: 1
+CE signal <uartrx_1/n505>, number of controlling flip flops: 1
+CE signal <uartrx_1/n507>, number of controlling flip flops: 1
+CE signal <ceg_net468>, number of controlling flip flops: 2
+CE signal <ctrl1/n607>, number of controlling flip flops: 32
+CE signal <ceg_net381>, number of controlling flip flops: 8
+CE signal <ceg_net263>, number of controlling flip flops: 26
+CE signal <la0_probe23>, number of controlling flip flops: 6
+CE signal <la0_probe25>, number of controlling flip flops: 6
+CE signal <reset>, number of controlling flip flops: 2
+CE signal <ceg_net264>, number of controlling flip flops: 1
+CE signal <la0_probe40[0]>, number of controlling flip flops: 1
+CE signal <apb_master1/n864>, number of controlling flip flops: 33
+CE signal <la0_probe40[1]>, number of controlling flip flops: 1
+CE signal <apb_master1/n863>, number of controlling flip flops: 2
+CE signal <apb_slave1/n1151>, number of controlling flip flops: 32
+CE signal <ceg_net427>, number of controlling flip flops: 1
+CE signal <ceg_net430>, number of controlling flip flops: 1
+CE signal <apb_slave1/n1177>, number of controlling flip flops: 8
+CE signal <ceg_net281>, number of controlling flip flops: 1
+CE signal <ceg_net474>, number of controlling flip flops: 2
+CE signal <apb_slave1/n1193>, number of controlling flip flops: 24
+CE signal <ceg_net441>, number of controlling flip flops: 1
+CE signal <ceg_net501>, number of controlling flip flops: 2
+CE signal <ceg_net339>, number of controlling flip flops: 8
+CE signal <ctrluart/n246>, number of controlling flip flops: 1
+CE signal <ceg_net340>, number of controlling flip flops: 3
+CE signal <ceg_net448>, number of controlling flip flops: 1
+CE signal <la0_probe119[2]>, number of controlling flip flops: 8
+CE signal <ceg_net491>, number of controlling flip flops: 1
+CE signal <ceg_net463>, number of controlling flip flops: 3
+CE signal <ceg_net461>, number of controlling flip flops: 1
+CE signal <uarttx_1/n496>, number of controlling flip flops: 8
+CE signal <edb_top_inst/ceg_net5>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n2439>, number of controlling flip flops: 21
+CE signal <edb_top_inst/la0/n2523>, number of controlling flip flops: 64
+CE signal <edb_top_inst/la0/n3040>, number of controlling flip flops: 22
+CE signal <edb_top_inst/la0/addr_ct_en>, number of controlling flip flops: 25
+CE signal <edb_top_inst/la0/op_reg_en>, number of controlling flip flops: 4
+CE signal <edb_top_inst/ceg_net339>, number of controlling flip flops: 6
+CE signal <edb_top_inst/la0/word_ct_en>, number of controlling flip flops: 16
+CE signal <edb_top_inst/ceg_net14>, number of controlling flip flops: 64
+CE signal <edb_top_inst/la0/n4325>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n3914>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n3929>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n4127>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n4340>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n4538>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n4752>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n5163>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n5643>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n5658>, number of controlling flip flops: 8
+CE signal <edb_top_inst/la0/n5856>, number of controlling flip flops: 8
+CE signal <edb_top_inst/la0/n6054>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n6069>, number of controlling flip flops: 8
+CE signal <edb_top_inst/la0/n6267>, number of controlling flip flops: 8
+CE signal <edb_top_inst/la0/n6710>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n6725>, number of controlling flip flops: 32
+CE signal <edb_top_inst/la0/n6923>, number of controlling flip flops: 32
+CE signal <edb_top_inst/la0/n7121>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n7136>, number of controlling flip flops: 32
+CE signal <edb_top_inst/la0/n7334>, number of controlling flip flops: 32
+CE signal <edb_top_inst/la0/n7591>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n7606>, number of controlling flip flops: 2
+CE signal <edb_top_inst/la0/n7804>, number of controlling flip flops: 2
+CE signal <edb_top_inst/la0/n8002>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n8017>, number of controlling flip flops: 2
+CE signal <edb_top_inst/la0/n8215>, number of controlling flip flops: 2
+CE signal <edb_top_inst/la0/n8652>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n8667>, number of controlling flip flops: 32
+CE signal <edb_top_inst/la0/n8865>, number of controlling flip flops: 32
+CE signal <edb_top_inst/la0/n9063>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n9078>, number of controlling flip flops: 32
+CE signal <edb_top_inst/la0/n9276>, number of controlling flip flops: 32
+CE signal <edb_top_inst/la0/n9519>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n9930>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n10354>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n10765>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n11245>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n11260>, number of controlling flip flops: 8
+CE signal <edb_top_inst/la0/n11458>, number of controlling flip flops: 8
+CE signal <edb_top_inst/la0/n11656>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n11671>, number of controlling flip flops: 8
+CE signal <edb_top_inst/la0/n11869>, number of controlling flip flops: 8
+CE signal <edb_top_inst/la0/n12116>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n12131>, number of controlling flip flops: 4
+CE signal <edb_top_inst/la0/n12329>, number of controlling flip flops: 4
+CE signal <edb_top_inst/la0/n12527>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n12542>, number of controlling flip flops: 4
+CE signal <edb_top_inst/la0/n12740>, number of controlling flip flops: 4
+CE signal <edb_top_inst/la0/n12997>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n13012>, number of controlling flip flops: 6
+CE signal <edb_top_inst/la0/n13210>, number of controlling flip flops: 6
+CE signal <edb_top_inst/la0/n13408>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n13423>, number of controlling flip flops: 6
+CE signal <edb_top_inst/la0/n13621>, number of controlling flip flops: 6
+CE signal <edb_top_inst/la0/n13838>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n14249>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n14673>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n15084>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n15550>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n15565>, number of controlling flip flops: 6
+CE signal <edb_top_inst/la0/n15763>, number of controlling flip flops: 6
+CE signal <edb_top_inst/la0/n15961>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n15976>, number of controlling flip flops: 6
+CE signal <edb_top_inst/la0/n16174>, number of controlling flip flops: 6
+CE signal <edb_top_inst/la0/n16391>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n16802>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n17450>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n17465>, number of controlling flip flops: 32
+CE signal <edb_top_inst/la0/n17663>, number of controlling flip flops: 32
+CE signal <edb_top_inst/la0/n17861>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n17876>, number of controlling flip flops: 32
+CE signal <edb_top_inst/la0/n18074>, number of controlling flip flops: 32
+CE signal <edb_top_inst/la0/n18317>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n18728>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n19152>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n19563>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n19987>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n20398>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n21046>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n21061>, number of controlling flip flops: 32
+CE signal <edb_top_inst/la0/n21259>, number of controlling flip flops: 32
+CE signal <edb_top_inst/la0/n21457>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n21472>, number of controlling flip flops: 32
+CE signal <edb_top_inst/la0/n21670>, number of controlling flip flops: 32
+CE signal <edb_top_inst/la0/n22137>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n22152>, number of controlling flip flops: 32
+CE signal <edb_top_inst/la0/n22350>, number of controlling flip flops: 32
+CE signal <edb_top_inst/la0/n22548>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n22563>, number of controlling flip flops: 32
+CE signal <edb_top_inst/la0/n22761>, number of controlling flip flops: 32
+CE signal <edb_top_inst/la0/n23039>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n23054>, number of controlling flip flops: 5
+CE signal <edb_top_inst/la0/n23252>, number of controlling flip flops: 5
+CE signal <edb_top_inst/la0/n23450>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n23465>, number of controlling flip flops: 5
+CE signal <edb_top_inst/la0/n23663>, number of controlling flip flops: 5
+CE signal <edb_top_inst/la0/n24103>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n24118>, number of controlling flip flops: 32
+CE signal <edb_top_inst/la0/n24316>, number of controlling flip flops: 32
+CE signal <edb_top_inst/la0/n24514>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n24529>, number of controlling flip flops: 32
+CE signal <edb_top_inst/la0/n24727>, number of controlling flip flops: 32
+CE signal <edb_top_inst/la0/n24970>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n25381>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n26029>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n26044>, number of controlling flip flops: 32
+CE signal <edb_top_inst/la0/n26242>, number of controlling flip flops: 32
+CE signal <edb_top_inst/ceg_net123>, number of controlling flip flops: 32
+CE signal <edb_top_inst/la0/n26440>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n26455>, number of controlling flip flops: 32
+CE signal <edb_top_inst/la0/n26653>, number of controlling flip flops: 32
+CE signal <edb_top_inst/la0/n26896>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n27307>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n27766>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n27781>, number of controlling flip flops: 5
+CE signal <edb_top_inst/la0/n27979>, number of controlling flip flops: 5
+CE signal <edb_top_inst/la0/n28177>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n28192>, number of controlling flip flops: 5
+CE signal <edb_top_inst/la0/n28390>, number of controlling flip flops: 5
+CE signal <edb_top_inst/la0/n28606>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n29017>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n29665>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n29680>, number of controlling flip flops: 32
+CE signal <edb_top_inst/la0/n29878>, number of controlling flip flops: 32
+CE signal <edb_top_inst/la0/n30076>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n30091>, number of controlling flip flops: 32
+CE signal <edb_top_inst/la0/n30289>, number of controlling flip flops: 32
+CE signal <edb_top_inst/la0/n30553>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n30568>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n30766>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n30964>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n30979>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n31177>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n31405>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n31420>, number of controlling flip flops: 2
+CE signal <edb_top_inst/la0/n31618>, number of controlling flip flops: 2
+CE signal <edb_top_inst/la0/n31816>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n31831>, number of controlling flip flops: 2
+CE signal <edb_top_inst/la0/n32029>, number of controlling flip flops: 2
+CE signal <edb_top_inst/la0/n32263>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n32278>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n32476>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n32674>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n32689>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n32887>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n33101>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n33512>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n33950>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n33965>, number of controlling flip flops: 2
+CE signal <edb_top_inst/la0/n34163>, number of controlling flip flops: 2
+CE signal <edb_top_inst/la0/n34361>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n34376>, number of controlling flip flops: 2
+CE signal <edb_top_inst/la0/n34574>, number of controlling flip flops: 2
+CE signal <edb_top_inst/la0/n34787>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n35198>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n35846>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n35861>, number of controlling flip flops: 32
+CE signal <edb_top_inst/la0/n36059>, number of controlling flip flops: 32
+CE signal <edb_top_inst/la0/n36257>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n36272>, number of controlling flip flops: 32
+CE signal <edb_top_inst/la0/n36470>, number of controlling flip flops: 32
+CE signal <edb_top_inst/la0/n36727>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n36742>, number of controlling flip flops: 2
+CE signal <edb_top_inst/la0/n36940>, number of controlling flip flops: 2
+CE signal <edb_top_inst/la0/n37138>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n37153>, number of controlling flip flops: 2
+CE signal <edb_top_inst/la0/n37351>, number of controlling flip flops: 2
+CE signal <edb_top_inst/la0/n37578>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n37593>, number of controlling flip flops: 2
+CE signal <edb_top_inst/la0/n37791>, number of controlling flip flops: 2
+CE signal <edb_top_inst/la0/n37989>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n38004>, number of controlling flip flops: 2
+CE signal <edb_top_inst/la0/n38202>, number of controlling flip flops: 2
+CE signal <edb_top_inst/la0/n38415>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n38826>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n39250>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n39661>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n40099>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n40114>, number of controlling flip flops: 2
+CE signal <edb_top_inst/la0/n40312>, number of controlling flip flops: 2
+CE signal <edb_top_inst/la0/n40510>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n40525>, number of controlling flip flops: 2
+CE signal <edb_top_inst/la0/n40723>, number of controlling flip flops: 2
+CE signal <edb_top_inst/la0/n40936>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n41347>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n41785>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n41800>, number of controlling flip flops: 2
+CE signal <edb_top_inst/la0/n41998>, number of controlling flip flops: 2
+CE signal <edb_top_inst/la0/n42196>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n42211>, number of controlling flip flops: 2
+CE signal <edb_top_inst/la0/n42409>, number of controlling flip flops: 2
+CE signal <edb_top_inst/la0/n42846>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n42861>, number of controlling flip flops: 32
+CE signal <edb_top_inst/la0/n43059>, number of controlling flip flops: 32
+CE signal <edb_top_inst/la0/n43257>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n43272>, number of controlling flip flops: 32
+CE signal <edb_top_inst/la0/n43470>, number of controlling flip flops: 32
+CE signal <edb_top_inst/la0/n43727>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n43742>, number of controlling flip flops: 2
+CE signal <edb_top_inst/la0/n43940>, number of controlling flip flops: 2
+CE signal <edb_top_inst/la0/n44138>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n44153>, number of controlling flip flops: 2
+CE signal <edb_top_inst/la0/n44351>, number of controlling flip flops: 2
+CE signal <edb_top_inst/la0/n44788>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n44803>, number of controlling flip flops: 32
+CE signal <edb_top_inst/la0/n45001>, number of controlling flip flops: 32
+CE signal <edb_top_inst/la0/n45199>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n45214>, number of controlling flip flops: 32
+CE signal <edb_top_inst/la0/n45412>, number of controlling flip flops: 32
+CE signal <edb_top_inst/la0/n45879>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n45894>, number of controlling flip flops: 32
+CE signal <edb_top_inst/la0/n46092>, number of controlling flip flops: 32
+CE signal <edb_top_inst/la0/n46290>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n46305>, number of controlling flip flops: 32
+CE signal <edb_top_inst/la0/n46503>, number of controlling flip flops: 32
+CE signal <edb_top_inst/la0/n46746>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n47157>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n47581>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n47992>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n48430>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n48445>, number of controlling flip flops: 2
+CE signal <edb_top_inst/la0/n48643>, number of controlling flip flops: 2
+CE signal <edb_top_inst/la0/n48841>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n48856>, number of controlling flip flops: 2
+CE signal <edb_top_inst/la0/n49054>, number of controlling flip flops: 2
+CE signal <edb_top_inst/la0/n49491>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n49506>, number of controlling flip flops: 32
+CE signal <edb_top_inst/la0/n49704>, number of controlling flip flops: 32
+CE signal <edb_top_inst/la0/n49902>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n49917>, number of controlling flip flops: 32
+CE signal <edb_top_inst/la0/n50115>, number of controlling flip flops: 32
+CE signal <edb_top_inst/la0/n50372>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n50387>, number of controlling flip flops: 2
+CE signal <edb_top_inst/la0/n50585>, number of controlling flip flops: 2
+CE signal <edb_top_inst/la0/n50783>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n50798>, number of controlling flip flops: 2
+CE signal <edb_top_inst/la0/n50996>, number of controlling flip flops: 2
+CE signal <edb_top_inst/la0/n51209>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n51620>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n52268>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n52283>, number of controlling flip flops: 32
+CE signal <edb_top_inst/la0/n52481>, number of controlling flip flops: 32
+CE signal <edb_top_inst/la0/n52679>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n52694>, number of controlling flip flops: 32
+CE signal <edb_top_inst/la0/n52892>, number of controlling flip flops: 32
+CE signal <edb_top_inst/la0/n53135>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n53546>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n53970>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n54381>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n55029>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n55044>, number of controlling flip flops: 32
+CE signal <edb_top_inst/la0/n55242>, number of controlling flip flops: 32
+CE signal <edb_top_inst/la0/n55440>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n55455>, number of controlling flip flops: 32
+CE signal <edb_top_inst/la0/n55653>, number of controlling flip flops: 32
+CE signal <edb_top_inst/la0/n55896>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n56307>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n56955>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n56970>, number of controlling flip flops: 32
+CE signal <edb_top_inst/la0/n57168>, number of controlling flip flops: 32
+CE signal <edb_top_inst/la0/n57366>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n57381>, number of controlling flip flops: 32
+CE signal <edb_top_inst/la0/n57579>, number of controlling flip flops: 32
+CE signal <edb_top_inst/la0/n57822>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n58233>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n58881>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n58896>, number of controlling flip flops: 32
+CE signal <edb_top_inst/la0/n59094>, number of controlling flip flops: 32
+CE signal <edb_top_inst/la0/n59292>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n59307>, number of controlling flip flops: 32
+CE signal <edb_top_inst/la0/n59505>, number of controlling flip flops: 32
+CE signal <edb_top_inst/la0/n59748>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n60159>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n60583>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n60994>, number of controlling flip flops: 3
+CE signal <edb_top_inst/la0/n98505>, number of controlling flip flops: 64
+CE signal <edb_top_inst/la0/regsel_ld_en>, number of controlling flip flops: 13
+CE signal <edb_top_inst/la0/la_biu_inst/n6127>, number of controlling flip flops: 4
+CE signal <edb_top_inst/la0/la_biu_inst/n1618>, number of controlling flip flops: 16
+CE signal <edb_top_inst/la0/la_biu_inst/n8261>, number of controlling flip flops: 65
+CE signal <edb_top_inst/ceg_net397>, number of controlling flip flops: 2
+CE signal <edb_top_inst/~ceg_net445>, number of controlling flip flops: 22
+CE signal <edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/is_last_data>, number of controlling flip flops: 10
+CE signal <edb_top_inst/la0/la_biu_inst/fifo_pop>, number of controlling flip flops: 10
+CE signal <edb_top_inst/la0/la_biu_inst/fifo_push>, number of controlling flip flops: 10
+CE signal <edb_top_inst/ceg_net400>, number of controlling flip flops: 1
+CE signal <edb_top_inst/debug_hub_inst/n266>, number of controlling flip flops: 4
+CE signal <edb_top_inst/debug_hub_inst/n95>, number of controlling flip flops: 82
+### ### EFX_FF CE enables (end) ### ### ###
+
+### ### EFX_FF SR set/reset (begin) ### ### ###
+Total number of set/reset signals: 13
+Total number of FFs with set/reset signals: 3442
+SR signal <la0_probe0[2]>, number of controlling flip flops: 2
+SR signal <uartrx_1/n491>, number of controlling flip flops: 1
+SR signal <reset>, number of controlling flip flops: 18
+SR signal <la0_probe40[1]>, number of controlling flip flops: 1
+SR signal <apb_master1/n792>, number of controlling flip flops: 1
+SR signal <la0_probe119[2]>, number of controlling flip flops: 2
+SR signal <uarttx_1/n478>, number of controlling flip flops: 1
+SR signal <jtag_inst1_RESET>, number of controlling flip flops: 3283
+SR signal <edb_top_inst/la0/la_soft_reset_in>, number of controlling flip flops: 2
+SR signal <edb_top_inst/la0/la_resetn>, number of controlling flip flops: 78
+SR signal <edb_top_inst/la0/la_biu_inst/fifo_rstn>, number of controlling flip flops: 21
+SR signal <edb_top_inst/la0/la_biu_inst/fifo_with_read_inst/n5749>, number of controlling flip flops: 31
+SR signal <edb_top_inst/la0/la_biu_inst/n8952>, number of controlling flip flops: 1
+### ### EFX_FF SR set/reset (end) ### ### ###
+
+### ### Sequential Elements Trimming Report (begin) ### ### ### 
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\intern\project\apb_final\apbmaster.v (70)" removed instance : apb_master1/dff_23/i1
+@ "E:\intern\project\apb_final\apbmaster.v (70)" representative instance : apb_master1/dff_23/i2
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\intern\project\apb_final\apbmaster.v (70)" removed instance : apb_master1/dff_27/i29
+@ "E:\intern\project\apb_final\apbmaster.v (70)" representative instance : apb_master1/dff_27/i26
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\intern\project\apb_final\apbmaster.v (70)" removed instance : apb_master1/dff_27/i22
+@ "E:\intern\project\apb_final\apbmaster.v (70)" representative instance : apb_master1/dff_27/i26
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\intern\project\apb_final\apbmaster.v (70)" removed instance : apb_master1/dff_27/i19
+@ "E:\intern\project\apb_final\apbmaster.v (70)" representative instance : apb_master1/dff_27/i26
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\intern\project\apb_final\apbmaster.v (70)" removed instance : apb_master1/dff_27/i21
+@ "E:\intern\project\apb_final\apbmaster.v (70)" representative instance : apb_master1/dff_27/i26
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\intern\project\apb_final\apbmaster.v (70)" removed instance : apb_master1/dff_27/i13
+@ "E:\intern\project\apb_final\apbmaster.v (70)" representative instance : apb_master1/dff_27/i26
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\intern\project\apb_final\apbmaster.v (70)" removed instance : apb_master1/dff_27/i11
+@ "E:\intern\project\apb_final\apbmaster.v (70)" representative instance : apb_master1/dff_27/i26
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\intern\project\apb_final\apbmaster.v (70)" removed instance : apb_master1/dff_27/i9
+@ "E:\intern\project\apb_final\apbmaster.v (70)" representative instance : apb_master1/dff_27/i26
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\intern\project\apb_final\apbmaster.v (70)" removed instance : apb_master1/dff_27/i15
+@ "E:\intern\project\apb_final\apbmaster.v (70)" representative instance : apb_master1/dff_27/i26
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\intern\project\apb_final\apbmaster.v (70)" removed instance : apb_master1/dff_27/i7
+@ "E:\intern\project\apb_final\apbmaster.v (70)" representative instance : apb_master1/dff_27/i26
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\intern\project\apb_final\apbmaster.v (70)" removed instance : apb_master1/dff_27/i2
+@ "E:\intern\project\apb_final\apbmaster.v (70)" representative instance : apb_master1/dff_27/i26
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\intern\project\apb_final\apbmaster.v (70)" removed instance : apb_master1/dff_27/i3
+@ "E:\intern\project\apb_final\apbmaster.v (70)" representative instance : apb_master1/dff_27/i26
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\intern\project\apb_final\apbmaster.v (70)" removed instance : apb_master1/dff_27/i6
+@ "E:\intern\project\apb_final\apbmaster.v (70)" representative instance : apb_master1/dff_27/i26
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:/intern/project/apb_final/work_dbg/debug_top.v (4563)" removed instance : edb_top_inst/la0/GEN_PROBE[36].this_probe_p1[0]~FF
+@ "E:/intern/project/apb_final/work_dbg/debug_top.v (4563)" representative instance : edb_top_inst/la0/GEN_PROBE[30].this_probe_p1[0]~FF
+FF Output: la0_probe29[0](=0)
+FF Output: la0_probe29[1](=0)
+FF Output: la0_probe29[2](=0)
+FF Output: la0_probe46[0](=0)
+FF Output: dd[0](=0)
+FF Output: la0_probe46[1](=0)
+FF Output: la0_probe46[2](=0)
+FF Output: la0_probe46[3](=0)
+FF Output: la0_probe46[4](=0)
+FF Output: la0_probe46[5](=0)
+FF Output: la0_probe46[6](=0)
+FF Output: la0_probe46[7](=0)
+FF Output: la0_probe46[8](=0)
+FF Output: la0_probe46[9](=0)
+FF Output: la0_probe46[10](=0)
+FF Output: la0_probe46[11](=0)
+FF Output: la0_probe46[12](=0)
+FF Output: la0_probe46[13](=0)
+FF Output: la0_probe46[14](=0)
+FF Output: la0_probe46[15](=0)
+FF Output: la0_probe46[16](=0)
+FF Output: la0_probe46[17](=0)
+FF Output: la0_probe46[18](=0)
+FF Output: la0_probe46[19](=0)
+FF Output: la0_probe46[20](=0)
+FF Output: la0_probe46[21](=0)
+FF Output: la0_probe46[22](=0)
+FF Output: la0_probe46[23](=0)
+FF Output: la0_probe46[24](=0)
+FF Output: la0_probe46[25](=0)
+FF Output: la0_probe46[26](=0)
+FF Output: la0_probe46[27](=0)
+FF Output: la0_probe46[28](=0)
+FF Output: la0_probe46[29](=0)
+FF Output: la0_probe46[30](=0)
+FF Output: la0_probe46[31](=0)
+FF Output: la0_probe49[1](=0)
+FF Output: dd[3](=0)
+FF Output: dd[4](=0)
+FF Output: dd[7](=0)
+FF Output: dd[9](=0)
+FF Output: dd[11](=0)
+FF Output: dd[13](=0)
+FF Output: dd[15](=0)
+FF Output: dd[16](=0)
+FF Output: dd[17](=0)
+FF Output: dd[19](=0)
+FF Output: dd[22](=0)
+FF Output: dd[23](=0)
+FF Output: dd[24](=0)
+FF Output: dd[26](=0)
+FF Output: dd[27](=0)
+FF Output: dd[29](=0)
+FF Output: dd[30](=0)
+FF Output: dd[31](=0)
+### ### Sequential Elements Trimming Report (end) ### ### ### 
+
+### ### Module Resource Usage Distribution Estimates (begin) ### ###
+
+**Note: some resources maybe grouped under different hierarchy due to optimization and LUT mapping
+
+Module                                                               FFs        ADDs        LUTs      RAMs DSP/MULTs
+------------------------------------------------------------         ---        ----        ----      ---- ---------
+top:top                                                          7816(0)       98(0)     8009(0)    258(0)      0(0)
+ +uartrx_1:uart_rx                                                28(28)        0(0)      63(63)      0(0)      0(0)
+ +ctrl1:ctrl_8_32                                                 68(68)        0(0)      37(37)      0(0)      0(0)
+ +fifo_1:fifo                                                     12(12)      10(10)        9(9)      2(0)      0(0)
+  +sram1:sram                                                       0(0)        0(0)        0(0)      2(2)      0(0)
+ +ctrl2_dut:ctrl2                                                   5(5)        0(0)        4(4)      0(0)      0(0)
+ +apb_master1:apb_master                                          39(39)        0(0)        8(8)      0(0)      0(0)
+ +apb_slave1:apb_slave                                            69(69)        0(0)      47(47)      0(0)      0(0)
+ +ctrluart:ctrl_uart                                              16(16)        0(0)      32(32)      0(0)      0(0)
+ +uarttx_1:uart_tx                                                24(24)        0(0)      36(36)      0(0)      0(0)
+ +edb_top_inst:edb_top                                        7555(7555)      88(88)  7773(7773)  256(256)      0(0)
+
+### ### Module Resource Usage Distribution Estimates (end) ### ###
+
+
+### ### Clock Load Distribution Report (begin) ### ###
+
+          Clock     Flip-Flops   Memory Ports    Multipliers
+          -----     ----------   ------------    -----------
+        clock_w           4533            516              0
+ jtag_inst1_TCK           3283              0              0
+
+### ### Clock Load Distribution Report (end) ### ###
+
+### ### Memory Mapping Report (begin) ### ### ###
+
+1. fifo_1/sram1/memory (E:\intern\project\apb_final\sram.v:17):
+	EFX_RAM_5K: fifo_1/sram1/memory__D$2
+	EFX_RAM_5K: fifo_1/sram1/memory__D$1
+
+### ### Memory Mapping Report (end) ### ### ###
+
+### ### EFX Flow Options (begin) ### ### ###
+
+family : Trion
+device : T120F324
+project : top
+root : top
+I : E:/intern/project/apb_final
+output-dir : E:/intern/project/apb_final/outflow
+work-dir : E:/intern/project/apb_final/work_dbg
+write-efx-verilog : E:/intern/project/apb_final/work_dbg/apb_final.dbg.map.v
+binary-db : E:/intern/project/apb_final/work_dbg/apb_final.dbg.vdb
+insert-ios : 0
+max-carry-cascade : 640
+max_mult : -1
+max_ram : -1
+mode : speed
+
+### ### EFX Flow Options (end) ### ### ###
+
+### ### Resource Summary (begin) ### ### ### 
+INPUT  PORTS    : 	16
+OUTPUT PORTS    : 	4
+
+EFX_ADD         : 	98
+EFX_LUT4        : 	8009
+   1-2  Inputs  : 	3062
+   3    Inputs  : 	1196
+   4    Inputs  : 	3751
+EFX_FF          : 	7816
+EFX_RAM_5K      : 	258
+EFX_GBUFCE      : 	2
+### ### Resource Summary (end) ### ### ###
+
+Plain synthesis (without verilog dump and post-map checks) time : 42s
+Elapsed synthesis time : 44s

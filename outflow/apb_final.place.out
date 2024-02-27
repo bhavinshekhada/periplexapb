@@ -1,0 +1,195 @@
+
+Efinix FPGA Placement and Routing.
+Version: 2023.1.150 
+Compiled: Jun 23 2023.
+
+Copyright (C) 2013 - 2023 Efinix Inc. All rights reserved.
+
+
+The Tool Is Based on VPR of University of Toronto,
+a free open source code under MIT license.
+
+
+Running Placement and Routing for Family "Trion", Device "T120F324" ...
+
+***** Beginning stage netlist pre-processing ... *****
+Successfully Read in Verific binary Netlist dump file "E:/intern/project/apb_final/outflow/apb_final.dbg.vdb".
+***** Beginning VDB Netlist Checker ... *****
+VDB Netlist Checker took 0.262858 seconds.
+	VDB Netlist Checker took 0.125 seconds (approximately) in total CPU time.
+VDB Netlist Checker virtual memory usage: begin = 52.508 MB, end = 52.524 MB, delta = 0.016 MB
+	VDB Netlist Checker peak virtual memory usage = 52.712 MB
+VDB Netlist Checker resident set memory usage: begin = 62.448 MB, end = 62.736 MB, delta = 0.288 MB
+	VDB Netlist Checker peak resident set memory usage = 62.748 MB
+***** Ending VDB Netlist Checker ... *****
+Reading core interface constraints from 'E:/intern/project/apb_final/outflow/apb_final.interface.csv'.
+Successfully processed interface constraints file "E:/intern/project/apb_final/outflow/apb_final.interface.csv".
+Found 0 constant generator nets.
+Pass 0: Swept away 0 nets with no fanout.
+logical_block #0(clock_r) has no fanout.
+Removing input.
+logical_block #10(jtag_inst1_DRCK) has no fanout.
+Removing input.
+logical_block #12(jtag_inst1_RUNTEST) has no fanout.
+Removing input.
+logical_block #17(jtag_inst1_TMS) has no fanout.
+Removing input.
+Pass 0: Swept away 4 blocks with no fanout.
+Pass 1: Swept away 0 nets with no fanout.
+Pass 1: Swept away 0 blocks with no fanout.
+Swept away 0 nets and 4 blocks in total.
+Removed 0 LUT buffers.
+Sweeped away 4 nodes.
+Successfully created VPR logical netlist from Verific binary DataBase file "E:/intern/project/apb_final/outflow/apb_final.dbg.vdb".
+Netlist pre-processing took 0.768035 seconds.
+	Netlist pre-processing took 0.4375 seconds (approximately) in total CPU time.
+Netlist pre-processing virtual memory usage: begin = 12.512 MB, end = 84.684 MB, delta = 72.172 MB
+	Netlist pre-processing peak virtual memory usage = 84.688 MB
+Netlist pre-processing resident set memory usage: begin = 23.816 MB, end = 93.892 MB, delta = 70.076 MB
+	Netlist pre-processing peak resident set memory usage = 93.896 MB
+***** Ending stage netlist pre-processing *****
+
+***** Beginning stage pre-packing ... *****
+***** Ending stage pre-packing *****
+
+***** Beginning stage packing ... *****
+Generate proto netlist for file "E:/intern/project/apb_final/work_pnr\apb_final.net_proto" took 0.039 seconds
+Creating IO constraints file 'E:/intern/project/apb_final/work_pnr\apb_final.io_place'
+Packing took 0.200682 seconds.
+	Packing took 0.03125 seconds (approximately) in total CPU time.
+Packing virtual memory usage: begin = 63.536 MB, end = 75.524 MB, delta = 11.988 MB
+	Packing peak virtual memory usage = 84.688 MB
+Packing resident set memory usage: begin = 71.504 MB, end = 84.92 MB, delta = 13.416 MB
+	Packing peak resident set memory usage = 93.9 MB
+***** Ending stage packing *****
+
+***** Beginning stage packed netlist loading ... *****
+Read proto netlist file E:/intern/project/apb_final/work_pnr\apb_final.net_proto
+Read proto netlist for file "E:/intern/project/apb_final/work_pnr\apb_final.net_proto" took 0.007 seconds
+Setup net and block data structure took 0.607 seconds
+Packed netlist loading took 0.655367 seconds.
+	Packed netlist loading took 0.40625 seconds (approximately) in total CPU time.
+Packed netlist loading virtual memory usage: begin = 75.524 MB, end = 281.584 MB, delta = 206.06 MB
+	Packed netlist loading peak virtual memory usage = 320.668 MB
+Packed netlist loading resident set memory usage: begin = 84.924 MB, end = 282.916 MB, delta = 197.992 MB
+	Packed netlist loading peak resident set memory usage = 321.92 MB
+***** Ending stage packed netlist loading *****
+
+***** Beginning stage pre-placement ... *****
+
+***** Ending stage pre-placement *****
+
+
+No SDC file found.  Using default timing constraint of 1 ns.
+NOTE:  Use --sdc_file <SDC_FILE> to override this behavior.
+
+***** Beginning stage initial placement ... *****
+Reading core interface constraints from 'E:/intern/project/apb_final/outflow/apb_final.interface.csv'.
+Successfully processed interface constraints file "E:/intern/project/apb_final/outflow/apb_final.interface.csv".
+Writing IO placement constraints to 'E:/intern/project/apb_final/outflow\apb_final.interface.io'.
+
+Reading placement constraints from 'E:/intern/project/apb_final/outflow\apb_final.interface.io'.
+
+Reading placement constraints from 'E:/intern/project/apb_final/work_pnr\apb_final.io_place'.
+WARNING(1): Clock driver clock_w should use the dedicated clock pad.
+WARNING(2): Clock driver jtag_inst1_TCK should use the dedicated clock pad.
+The driver, jtag_inst1_RESET, of control net, jtag_inst1_RESET, should be placed at a dedicated control pad location.
+***** Ending stage initial placement *****
+
+***** Beginning stage placement ... *****
+Create E:/intern/project/apb_final/outflow\apb_final_after_qp.qdelay
+QPLACER STATIC DB USAGE DISABLED
+NumRegions 1
+Starting Global Placer with 4 threads ...
+
+ ----------     -------  --------------     -------
+  Iteration       WHPWL Worst Slack (ps) Convergence
+ ----------     -------  --------------     -------
+          1     3748793           -4259         0.2%
+          2     2381730           -4259         0.5%
+          3     1688079           -6450         0.8%
+          4     1503341           -4330         1.6%
+          5     1321095           -6045         4.0%
+          6      919597           -7800        10.2%
+          7      717670           -9455        24.9%
+          8      736607           -8549        37.7%
+          9      858262           -9436        46.1%
+         10      878219           -8933        49.8%
+         11      850904           -8901        54.3%
+         12      840052           -9166        57.5%
+         13      878806           -9167        61.5%
+         14      877297           -9416        62.2%
+         15     1029054           -9629        67.1%
+         16      989368           -9349        67.1%
+         17     1069890           -9256        68.1%
+         18     1062484           -9365        68.1%
+         19     1015543           -9554        68.1%
+         20      937938           -9122        68.1%
+         21     1066300           -9350        72.1%
+         22     1077489           -9382        72.2%
+         23      934569           -9650        72.2%
+         24      962215           -9513        73.6%
+         25     1008271           -9659        77.5%
+         26      969137           -9648        77.5%
+         27      994372           -9612        78.3%
+         28      956309           -9641        78.3%
+         29     1006747           -9650        81.7%
+         30      965707           -9495        81.7%
+         31     1012907           -9349        83.7%
+         32     1015595           -9580        83.7%
+Starting Annealer
+
+ ----------     -------  --------------     -------
+  Iteration       WHPWL  Delay Max (ps)     R Limit
+ ----------     -------  --------------     -------
+          0      937938           11709        30.0
+          1      760671           11371        30.0
+          2      582064           10194        30.0
+          3      521333            9791        29.5
+          4      485721           10257        28.7
+          5      464835            9345        27.6
+          6      452842            9014        26.4
+          7      446573            8683        25.1
+          8      443470            8571        23.9
+          9      442740            9042        22.6
+         10      437298            8627        21.3
+         11      435215            8568        20.1
+         12      433709            8635        18.9
+         13      429138            8639        17.7
+         14      423387            8717        16.6
+         15      420009            8717        15.5
+         16      417026            8358        14.5
+         17      412916            8298        13.6
+         18      410299            8244        12.7
+         19      406455            8178        11.8
+         20      404453            7944        11.0
+         21      398763            8395        10.3
+         22      395888            8143         9.6
+         23      394499            7938         9.0
+         24      393151            7938         8.3
+         25      390116            8321         7.8
+         26      387931            8527         7.2
+         27      385932            8109         6.7
+         28      382980            8109         6.3
+         29      378769            8205         5.8
+         30      376858            7968         5.4
+         31      374478            8789         4.9
+         32      366915            9292         4.4
+Generate E:/intern/project/apb_final/outflow\apb_final_after_qp.qdelay
+Placement successful: 12985 cells are placed
+Peak congestion smeared over 1/4 of the chip is 0.32037 at 114,154
+Congestion-weighted HPWL per net: 21.8179
+
+Reading placement constraints from 'E:/intern/project/apb_final/outflow/apb_final.qplace'.
+Finished Realigning Types (2571 blocks needed type change)
+
+Completed placement consistency check successfully.
+Successfully created FPGA place file 'E:/intern/project/apb_final/outflow/apb_final.place'
+Placement took 59.36 seconds.
+	Placement took 60.0156 seconds (approximately) in total CPU time.
+Placement virtual memory usage: begin = 325.96 MB, end = 417.908 MB, delta = 91.948 MB
+	Placement peak virtual memory usage = 904.716 MB
+Placement resident set memory usage: begin = 325.364 MB, end = 408.876 MB, delta = 83.512 MB
+	Placement peak resident set memory usage = 882.436 MB
+***** Ending stage placement *****
+

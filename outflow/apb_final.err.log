@@ -1,0 +1,26 @@
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Feb 26, 2024 14:10:48
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] instantiating unknown module 'ctrl_uart' (VERI-1063) (E:\intern\project\apb_final\top.v:130)
+[EFX-0021 ERROR] Verific elaboration of module 'top' failed.
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Feb 26, 2024 14:11:09
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Feb 26, 2024 14:24:16
+///////////////////////////////////
+
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// Feb 26, 2024 15:57:10
+///////////////////////////////////
+

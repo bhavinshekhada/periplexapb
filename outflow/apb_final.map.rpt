@@ -1,0 +1,161 @@
+Efinity Synthesis report for project apb_final
+Version: 2023.1.150
+Generated at: Feb 26, 2024 15:57:10
+Copyright (C) 2013 - 2023  Inc. All rights reserved.
+
+### ### ### ### ### ### ### ### ### ### ### ### ### ### ###
+Top-level Entity Name : top
+
+### ### File List (begin) ### ### ###
+E:\intern\project\apb_final\uartrx.v
+E:\intern\project\apb_final\ctrl_8_32.v
+E:\intern\project\apb_final\ctrl2.v
+E:\intern\project\apb_final\apbmaster.v
+E:\intern\project\apb_final\apbslave.v
+E:\intern\project\apb_final\fifo.v
+E:\intern\project\apb_final\sram.v
+E:\intern\project\apb_final\ctrl3.v
+E:\intern\project\apb_final\uarttx.v
+E:\intern\project\apb_final\top.v
+### ### File List (end) ### ### ###
+
+
+### ### EFX_FF CE enables (begin) ### ### ###
+Total number of enable signals: 40
+Total number of FFs with enable signals: 216
+CE signal <uartrx_1/n509>, number of controlling flip flops: 1
+CE signal <ceg_net72>, number of controlling flip flops: 11
+CE signal <ceg_net464>, number of controlling flip flops: 1
+CE signal <ceg_net371>, number of controlling flip flops: 3
+CE signal <uartrx_1/n489>, number of controlling flip flops: 1
+CE signal <uartrx_1/n491>, number of controlling flip flops: 1
+CE signal <uartrx_1/n493>, number of controlling flip flops: 1
+CE signal <uartrx_1/n495>, number of controlling flip flops: 1
+CE signal <uartrx_1/n497>, number of controlling flip flops: 1
+CE signal <uartrx_1/n499>, number of controlling flip flops: 1
+CE signal <uartrx_1/n504>, number of controlling flip flops: 1
+CE signal <ceg_net467>, number of controlling flip flops: 2
+CE signal <ctrl1/n609>, number of controlling flip flops: 32
+CE signal <ceg_net381>, number of controlling flip flops: 8
+CE signal <ceg_net263>, number of controlling flip flops: 26
+CE signal <fifo_1/n13>, number of controlling flip flops: 6
+CE signal <fifo_1/n11>, number of controlling flip flops: 6
+CE signal <reset>, number of controlling flip flops: 2
+CE signal <ceg_net264>, number of controlling flip flops: 1
+CE signal <apb_master1/p_state[0]>, number of controlling flip flops: 1
+CE signal <apb_master1/n864>, number of controlling flip flops: 33
+CE signal <apb_master1/p_state[1]>, number of controlling flip flops: 1
+CE signal <apb_master1/n863>, number of controlling flip flops: 1
+CE signal <ceg_net427>, number of controlling flip flops: 1
+CE signal <ceg_net430>, number of controlling flip flops: 1
+CE signal <apb_slave1/n1180>, number of controlling flip flops: 8
+CE signal <ceg_net281>, number of controlling flip flops: 1
+CE signal <ceg_net473>, number of controlling flip flops: 2
+CE signal <apb_slave1/n1196>, number of controlling flip flops: 24
+CE signal <ceg_net441>, number of controlling flip flops: 1
+CE signal <ceg_net500>, number of controlling flip flops: 2
+CE signal <ceg_net339>, number of controlling flip flops: 8
+CE signal <ctrluart/n242>, number of controlling flip flops: 1
+CE signal <ceg_net340>, number of controlling flip flops: 3
+CE signal <ceg_net447>, number of controlling flip flops: 1
+CE signal <uarttx_1/r_SM_Main[2]>, number of controlling flip flops: 8
+CE signal <ceg_net490>, number of controlling flip flops: 1
+CE signal <ceg_net462>, number of controlling flip flops: 3
+CE signal <ceg_net460>, number of controlling flip flops: 1
+CE signal <uarttx_1/n497>, number of controlling flip flops: 8
+### ### EFX_FF CE enables (end) ### ### ###
+
+### ### EFX_FF SR set/reset (begin) ### ### ###
+Total number of set/reset signals: 7
+Total number of FFs with set/reset signals: 26
+SR signal <uartrx_1/n485>, number of controlling flip flops: 1
+SR signal <uartrx_1/r_SM_Main[2]>, number of controlling flip flops: 2
+SR signal <reset>, number of controlling flip flops: 18
+SR signal <apb_master1/p_state[1]>, number of controlling flip flops: 1
+SR signal <apb_master1/n792>, number of controlling flip flops: 1
+SR signal <uarttx_1/r_SM_Main[2]>, number of controlling flip flops: 2
+SR signal <uarttx_1/n479>, number of controlling flip flops: 1
+### ### EFX_FF SR set/reset (end) ### ### ###
+
+### ### Sequential Elements Trimming Report (begin) ### ### ### 
+FF|OPT : Flip-flop optimization by equivalence checking
+@ "E:\intern\project\apb_final\apbmaster.v (70)" removed instance : apb_master1/dff_23/i1
+@ "E:\intern\project\apb_final\apbmaster.v (70)" representative instance : apb_master1/dff_23/i2
+FF Output: ctrl2_dut/send_counter[2](=0)
+FF Output: ctrl2_dut/send_counter[1](=0)
+FF Output: ctrl2_dut/send_counter[0](=0)
+### ### Sequential Elements Trimming Report (end) ### ### ### 
+
+### ### Module Resource Usage Distribution Estimates (begin) ### ###
+
+**Note: some resources maybe grouped under different hierarchy due to optimization and LUT mapping
+
+Module                            FFs        ADDs        LUTs      RAMs DSP/MULTs
+-------------------------         ---        ----        ----      ---- ---------
+top:top                        228(0)       10(0)      196(0)      2(0)      0(0)
+ +uartrx_1:uart_rx             28(28)        0(0)      50(50)      0(0)      0(0)
+ +ctrl1:ctrl_8_32              68(68)        0(0)      39(39)      0(0)      0(0)
+ +fifo_1:fifo                  12(12)      10(10)        6(6)      2(0)      0(0)
+  +sram1:sram                    0(0)        0(0)        0(0)      2(2)      0(0)
+ +ctrl2_dut:ctrl2                5(5)        0(0)        4(4)      0(0)      0(0)
+ +apb_master1:apb_master       38(38)        0(0)        9(9)      0(0)      0(0)
+ +apb_slave1:apb_slave         37(37)        0(0)      18(18)      0(0)      0(0)
+ +ctrluart:ctrl_uart           16(16)        0(0)      35(35)      0(0)      0(0)
+ +uarttx_1:uart_tx             24(24)        0(0)      35(35)      0(0)      0(0)
+
+### ### Module Resource Usage Distribution Estimates (end) ### ###
+
+
+### ### Clock Load Distribution Report (begin) ### ###
+
+   Clock     Flip-Flops   Memory Ports    Multipliers
+   -----     ----------   ------------    -----------
+ clock_w            228              4              0
+
+### ### Clock Load Distribution Report (end) ### ###
+
+### ### Memory Mapping Report (begin) ### ### ###
+
+1. fifo_1/sram1/memory (E:\intern\project\apb_final\sram.v:17):
+	EFX_RAM_5K: fifo_1/sram1/memory__D$2
+	EFX_RAM_5K: fifo_1/sram1/memory__D$1
+
+### ### Memory Mapping Report (end) ### ### ###
+
+### ### EFX Flow Options (begin) ### ### ###
+
+family : Trion
+device : T120F324
+project : apb_final
+project-xml : E:/intern/project/apb_final/apb_final.xml
+root : top
+I : E:/intern/project/apb_final
+output-dir : E:/intern/project/apb_final/outflow
+work-dir : E:/intern/project/apb_final/work_syn
+write-efx-verilog : E:/intern/project/apb_final/outflow/apb_final.map.v
+binary-db : E:/intern/project/apb_final/outflow/apb_final.vdb
+insert-ios : 0
+max-carry-cascade : 640
+max_mult : -1
+max_ram : -1
+mode : speed
+veri_options : verilog_mode=verilog_2k,vhdl_mode=vhdl_2008
+
+### ### EFX Flow Options (end) ### ### ###
+
+### ### Resource Summary (begin) ### ### ### 
+INPUT  PORTS    : 	6
+OUTPUT PORTS    : 	3
+
+EFX_ADD         : 	10
+EFX_LUT4        : 	196
+   1-2  Inputs  : 	66
+   3    Inputs  : 	65
+   4    Inputs  : 	65
+EFX_FF          : 	228
+EFX_RAM_5K      : 	2
+EFX_GBUFCE      : 	1
+### ### Resource Summary (end) ### ### ###
+
+Plain synthesis (without verilog dump and post-map checks) time : 7s
+Elapsed synthesis time : 7s

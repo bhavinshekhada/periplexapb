@@ -1,0 +1,12 @@
+
+Efinix FPGA Placement and Routing.
+Version: 2023.1.150 
+Date: Mon Feb 26 16:02:54 2024
+
+Copyright (C) 2013 - 2023 Efinix Inc. All rights reserved.
+ 
+Family: Trion 
+Device: T120F324
+Top-level Entity Name: apb_final
+Elapsed time for routing: 0 hours 1 minutes 37 seconds
+Elapsed time for entire flow: 0 hours 4 minutes 6 seconds

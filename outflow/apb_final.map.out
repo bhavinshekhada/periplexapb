@@ -1,0 +1,257 @@
+[EFX-0000 INFO] Efinix FPGA Synthesis.
+[EFX-0000 INFO] Version: 2023.1.150
+[EFX-0000 INFO] Compiled: Jun 23 2023.
+[EFX-0000 INFO] 
+[EFX-0000 INFO] Copyright (C) 2013 - 2023 Efinix Inc. All rights reserved.
+
+-- Analyzing Verilog file 'E:/intern/sim_models/maplib/efinix_peri_lib.v' (VERI-1482)
+E:/intern/sim_models/maplib/efinix_peri_lib.v(8): INFO: compiling module 'EFX_IBUF' (VERI-1018)
+E:/intern/sim_models/maplib/efinix_peri_lib.v(16): INFO: compiling module 'EFX_OBUF' (VERI-1018)
+E:/intern/sim_models/maplib/efinix_peri_lib.v(23): INFO: compiling module 'EFX_IO_BUF' (VERI-1018)
+E:/intern/sim_models/maplib/efinix_peri_lib.v(33): INFO: compiling module 'EFX_CLKOUT' (VERI-1018)
+E:/intern/sim_models/maplib/efinix_peri_lib.v(41): INFO: compiling module 'EFX_IREG' (VERI-1018)
+E:/intern/sim_models/maplib/efinix_peri_lib.v(51): INFO: compiling module 'EFX_OREG' (VERI-1018)
+E:/intern/sim_models/maplib/efinix_peri_lib.v(60): INFO: compiling module 'EFX_IOREG' (VERI-1018)
+E:/intern/sim_models/maplib/efinix_peri_lib.v(75): INFO: compiling module 'EFX_IDDIO' (VERI-1018)
+E:/intern/sim_models/maplib/efinix_peri_lib.v(87): INFO: compiling module 'EFX_ODDIO' (VERI-1018)
+E:/intern/sim_models/maplib/efinix_peri_lib.v(99): INFO: compiling module 'EFX_GPIO_V1' (VERI-1018)
+E:/intern/sim_models/maplib/efinix_peri_lib.v(118): INFO: compiling module 'EFX_PLL_V1' (VERI-1018)
+E:/intern/sim_models/maplib/efinix_peri_lib.v(136): INFO: compiling module 'EFX_OSC_V1' (VERI-1018)
+INFO: Read project database "E:/intern/project/apb_final/apb_final.xml"
+INFO: ***** Beginning Analysis ... *****
+INFO: default VHDL library search path is now "E:/intern/sim_models/vhdl/packages/vhdl_2008" (VHDL-1504)
+-- Analyzing Verilog file 'E:/intern/sim_models/maplib/efinix_maplib.v' (VERI-1482)
+-- Analyzing Verilog file 'E:/intern/sim_models/maplib/efinix_peri_lib.v' (VERI-1482)
+-- Analyzing Verilog file 'E:\intern\project\apb_final\uartrx.v' (VERI-1482)
+E:\intern\project\apb_final\uartrx.v(10): WARNING: parameter 's_IDLE' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199)
+E:\intern\project\apb_final\uartrx.v(11): WARNING: parameter 's_RX_START_BIT' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199)
+E:\intern\project\apb_final\uartrx.v(12): WARNING: parameter 's_RX_DATA_BITS' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199)
+E:\intern\project\apb_final\uartrx.v(13): WARNING: parameter 's_RX_STOP_BIT' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199)
+E:\intern\project\apb_final\uartrx.v(14): WARNING: parameter 's_CLEANUP' becomes localparam in 'uart_rx' with formal parameter declaration list (VERI-1199)
+-- Analyzing Verilog file 'E:\intern\project\apb_final\ctrl_8_32.v' (VERI-1482)
+-- Analyzing Verilog file 'E:\intern\project\apb_final\ctrl2.v' (VERI-1482)
+-- Analyzing Verilog file 'E:\intern\project\apb_final\apbmaster.v' (VERI-1482)
+-- Analyzing Verilog file 'E:\intern\project\apb_final\apbslave.v' (VERI-1482)
+-- Analyzing Verilog file 'E:\intern\project\apb_final\fifo.v' (VERI-1482)
+-- Analyzing Verilog file 'E:\intern\project\apb_final\sram.v' (VERI-1482)
+-- Analyzing Verilog file 'E:\intern\project\apb_final\ctrl3.v' (VERI-1482)
+-- Analyzing Verilog file 'E:\intern\project\apb_final\uarttx.v' (VERI-1482)
+E:\intern\project\apb_final\uarttx.v(11): WARNING: parameter 's_IDLE' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199)
+E:\intern\project\apb_final\uarttx.v(12): WARNING: parameter 's_TX_START_BIT' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199)
+E:\intern\project\apb_final\uarttx.v(13): WARNING: parameter 's_TX_DATA_BITS' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199)
+E:\intern\project\apb_final\uarttx.v(14): WARNING: parameter 's_TX_STOP_BIT' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199)
+E:\intern\project\apb_final\uarttx.v(15): WARNING: parameter 's_CLEANUP' becomes localparam in 'uart_tx' with formal parameter declaration list (VERI-1199)
+-- Analyzing Verilog file 'E:\intern\project\apb_final\top.v' (VERI-1482)
+E:\intern\project\apb_final\top.v(46): WARNING: data object 'mm' is already declared (VERI-2170)
+E:\intern\project\apb_final\top.v(28): INFO: previous declaration of 'mm' is from here (VERI-1967)
+E:\intern\project\apb_final\top.v(46): WARNING: second declaration of 'mm' is ignored (VERI-1329)
+E:\intern\project\apb_final\top.v(46): WARNING: 'mm' was previously declared with a range (VERI-1204)
+INFO: Analysis took 0.0854351 seconds.
+INFO: 	Analysis took 0 seconds (approximately) in total CPU time.
+INFO: Analysis virtual memory usage: begin = 55.008 MB, end = 55.164 MB, delta = 0.156 MB
+INFO: 	Analysis peak virtual memory usage = 55.164 MB
+INFO: Analysis resident set memory usage: begin = 58.54 MB, end = 59.608 MB, delta = 1.068 MB
+INFO: 	Analysis peak resident set memory usage = 59.608 MB
+INFO: ***** Ending Analysis ... *****
+INFO: ***** Beginning Elaboration ... *****
+E:\intern\project\apb_final\top.v(104): WARNING: port 'master_ready' remains unconnected for this instance (VERI-1927)
+E:\intern\project\apb_final\top.v(1): INFO: compiling module 'top' (VERI-1018)
+E:\intern\project\apb_final\uartrx.v(1): INFO: compiling module 'uart_rx' (VERI-1018)
+E:\intern\project\apb_final\uartrx.v(61): WARNING: expression size 12 truncated to fit in target size 11 (VERI-1209)
+E:\intern\project\apb_final\uartrx.v(71): WARNING: expression size 12 truncated to fit in target size 11 (VERI-1209)
+E:\intern\project\apb_final\uartrx.v(82): WARNING: expression size 4 truncated to fit in target size 3 (VERI-1209)
+E:\intern\project\apb_final\uartrx.v(100): WARNING: expression size 12 truncated to fit in target size 11 (VERI-1209)
+E:\intern\project\apb_final\uartrx.v(127): WARNING: expression size 9 truncated to fit in target size 8 (VERI-1209)
+E:\intern\project\apb_final\ctrl_8_32.v(1): INFO: compiling module 'ctrl_8_32' (VERI-1018)
+E:\intern\project\apb_final\ctrl_8_32.v(38): WARNING: expression size 5 truncated to fit in target size 4 (VERI-1209)
+E:\intern\project\apb_final\fifo.v(1): INFO: compiling module 'fifo' (VERI-1018)
+E:\intern\project\apb_final\sram.v(1): INFO: compiling module 'sram' (VERI-1018)
+E:\intern\project\apb_final\sram.v(17): INFO: extracting RAM for identifier 'memory' (VERI-2571)
+E:\intern\project\apb_final\ctrl2.v(1): INFO: compiling module 'ctrl2' (VERI-1018)
+E:\intern\project\apb_final\apbmaster.v(1): INFO: compiling module 'apb_master' (VERI-1018)
+E:\intern\project\apb_final\apbmaster.v(73): WARNING: expression size 2 truncated to fit in target size 1 (VERI-1209)
+E:\intern\project\apb_final\apbslave.v(1): INFO: compiling module 'apb_slave' (VERI-1018)
+E:\intern\project\apb_final\apbslave.v(59): WARNING: expression size 9 truncated to fit in target size 8 (VERI-1209)
+E:\intern\project\apb_final\ctrl3.v(1): INFO: compiling module 'ctrl_uart' (VERI-1018)
+E:\intern\project\apb_final\ctrl3.v(59): WARNING: expression size 3 truncated to fit in target size 2 (VERI-1209)
+E:\intern\project\apb_final\ctrl3.v(82): WARNING: expression size 3 truncated to fit in target size 2 (VERI-1209)
+E:\intern\project\apb_final\ctrl3.v(105): WARNING: expression size 3 truncated to fit in target size 2 (VERI-1209)
+E:\intern\project\apb_final\uarttx.v(1): INFO: compiling module 'uart_tx' (VERI-1018)
+E:\intern\project\apb_final\uarttx.v(47): WARNING: expression size 12 truncated to fit in target size 11 (VERI-1209)
+E:\intern\project\apb_final\uarttx.v(62): WARNING: expression size 12 truncated to fit in target size 11 (VERI-1209)
+E:\intern\project\apb_final\uarttx.v(71): WARNING: expression size 4 truncated to fit in target size 3 (VERI-1209)
+E:\intern\project\apb_final\uarttx.v(88): WARNING: expression size 12 truncated to fit in target size 11 (VERI-1209)
+E:\intern\project\apb_final\top.v(87): WARNING: input port 'slv_prdata[31]' remains unconnected for this instance (VDB-1053)
+INFO: Elaboration took 0.0261105 seconds.
+INFO: 	Elaboration took 0.03125 seconds (approximately) in total CPU time.
+INFO: Elaboration virtual memory usage: begin = 55.164 MB, end = 57.844 MB, delta = 2.68 MB
+INFO: 	Elaboration peak virtual memory usage = 57.844 MB
+INFO: Elaboration resident set memory usage: begin = 59.62 MB, end = 63.016 MB, delta = 3.396 MB
+INFO: 	Elaboration peak resident set memory usage = 63.016 MB
+INFO: ***** Ending Elaboration ... *****
+[EFX-0000 INFO] ... Setting Synthesis Option: mode=speed
+INFO: ***** Beginning Reading Mapping Library ... *****
+-- Analyzing Verilog file 'E:/intern/sim_models/maplib/efinix_maplib.v' (VERI-1482)
+E:/intern/sim_models/maplib/efinix_maplib.v(8): INFO: compiling module 'EFX_ADD' (VERI-1018)
+E:/intern/sim_models/maplib/efinix_maplib.v(21): INFO: compiling module 'EFX_FF' (VERI-1018)
+E:/intern/sim_models/maplib/efinix_maplib.v(38): INFO: compiling module 'EFX_COMB4' (VERI-1018)
+E:/intern/sim_models/maplib/efinix_maplib.v(48): INFO: compiling module 'EFX_GBUFCE' (VERI-1018)
+E:/intern/sim_models/maplib/efinix_maplib.v(57): INFO: compiling module 'EFX_IDDR' (VERI-1018)
+E:/intern/sim_models/maplib/efinix_maplib.v(71): INFO: compiling module 'EFX_ODDR' (VERI-1018)
+E:/intern/sim_models/maplib/efinix_maplib.v(87): INFO: compiling module 'EFX_IOBUF' (VERI-1018)
+E:/intern/sim_models/maplib/efinix_maplib.v(99): INFO: compiling module 'EFX_LUT4' (VERI-1018)
+E:/intern/sim_models/maplib/efinix_maplib.v(107): INFO: compiling module 'EFX_MULT' (VERI-1018)
+E:/intern/sim_models/maplib/efinix_maplib.v(142): INFO: compiling module 'EFX_DSP48' (VERI-1018)
+E:/intern/sim_models/maplib/efinix_maplib.v(198): INFO: compiling module 'EFX_DSP24' (VERI-1018)
+E:/intern/sim_models/maplib/efinix_maplib.v(251): INFO: compiling module 'EFX_DSP12' (VERI-1018)
+E:/intern/sim_models/maplib/efinix_maplib.v(304): INFO: compiling module 'EFX_RAM_4K' (VERI-1018)
+E:/intern/sim_models/maplib/efinix_maplib.v(364): INFO: compiling module 'EFX_RAM_5K' (VERI-1018)
+E:/intern/sim_models/maplib/efinix_maplib.v(436): INFO: compiling module 'EFX_DPRAM_5K' (VERI-1018)
+E:/intern/sim_models/maplib/efinix_maplib.v(541): INFO: compiling module 'RAMB5' (VERI-1018)
+E:/intern/sim_models/maplib/efinix_maplib.v(603): INFO: compiling module 'EFX_RAM_10K' (VERI-1018)
+E:/intern/sim_models/maplib/efinix_maplib.v(695): INFO: compiling module 'EFX_RAM10' (VERI-1018)
+E:/intern/sim_models/maplib/efinix_maplib.v(796): INFO: compiling module 'EFX_DPRAM10' (VERI-1018)
+E:/intern/sim_models/maplib/efinix_maplib.v(926): INFO: compiling module 'EFX_SRL8' (VERI-1018)
+INFO: Reading Mapping Library took 0.0307714 seconds.
+INFO: 	Reading Mapping Library took 0 seconds (approximately) in total CPU time.
+INFO: Reading Mapping Library virtual memory usage: begin = 58.272 MB, end = 59.032 MB, delta = 0.76 MB
+INFO: 	Reading Mapping Library peak virtual memory usage = 59.032 MB
+INFO: Reading Mapping Library resident set memory usage: begin = 63.712 MB, end = 64.444 MB, delta = 0.732 MB
+INFO: 	Reading Mapping Library peak resident set memory usage = 64.444 MB
+INFO: ***** Ending Reading Mapping Library ... *****
+[EFX-0000 INFO] ... Pre-synthesis checks begin
+[EFX-0000 INFO] ... Pre-synthesis checks end (Real time : 0s)
+[EFX-0000 INFO] ... NameSpace init begin
+[EFX-0000 INFO] ... NameSpace init end (Real time : 0s)
+[EFX-0000 INFO] ... Mapping design "top"
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_rx" begin
+[EFX-0200 WARNING] Removing redundant signal : r_Rx_Byte[8]. (E:\intern\project\apb_final\uartrx.v:21)
+[EFX-0200 WARNING] Removing redundant signal : i[31]. (E:\intern\project\apb_final\sram.v:19)
+[EFX-0200 WARNING] Removing redundant signal : i[30]. (E:\intern\project\apb_final\sram.v:19)
+[EFX-0200 WARNING] Removing redundant signal : i[29]. (E:\intern\project\apb_final\sram.v:19)
+[EFX-0200 WARNING] Removing redundant signal : i[28]. (E:\intern\project\apb_final\sram.v:19)
+[EFX-0200 WARNING] Removing redundant signal : i[27]. (E:\intern\project\apb_final\sram.v:19)
+[EFX-0200 WARNING] Removing redundant signal : i[26]. (E:\intern\project\apb_final\sram.v:19)
+[EFX-0200 WARNING] Removing redundant signal : i[25]. (E:\intern\project\apb_final\sram.v:19)
+[EFX-0200 WARNING] Removing redundant signal : i[24]. (E:\intern\project\apb_final\sram.v:19)
+[EFX-0200 WARNING] Removing redundant signal : i[23]. (E:\intern\project\apb_final\sram.v:19)
+[EFX-0200 WARNING] Removing redundant signal : i[22]. (E:\intern\project\apb_final\sram.v:19)
+[EFX-0200 WARNING] Removing redundant signal : i[21]. (E:\intern\project\apb_final\sram.v:19)
+[EFX-0200 WARNING] Removing redundant signal : i[20]. (E:\intern\project\apb_final\sram.v:19)
+[EFX-0200 WARNING] Removing redundant signal : i[19]. (E:\intern\project\apb_final\sram.v:19)
+[EFX-0200 WARNING] Removing redundant signal : i[18]. (E:\intern\project\apb_final\sram.v:19)
+[EFX-0200 WARNING] Removing redundant signal : i[17]. (E:\intern\project\apb_final\sram.v:19)
+[EFX-0200 WARNING] Removing redundant signal : i[16]. (E:\intern\project\apb_final\sram.v:19)
+[EFX-0200 WARNING] Removing redundant signal : i[15]. (E:\intern\project\apb_final\sram.v:19)
+[EFX-0200 WARNING] Removing redundant signal : i[14]. (E:\intern\project\apb_final\sram.v:19)
+[EFX-0200 WARNING] Removing redundant signal : i[13]. (E:\intern\project\apb_final\sram.v:19)
+[EFX-0200 WARNING] The above message was generated too many times, subsequent similar messages will be muted.
+[EFX-0266 WARNING] Module Instance 'apb_master1' input pin tied to constant (ext_addr[0]=0).
+[EFX-0266 WARNING] Module Instance 'apb_master1' input pin tied to constant (ext_addr[1]=1).
+[EFX-0266 WARNING] Module Instance 'apb_master1' input pin tied to constant (ext_addr[2]=1).
+[EFX-0266 WARNING] Module Instance 'apb_master1' input pin tied to constant (ext_addr[3]=0).
+[EFX-0266 WARNING] Module Instance 'apb_master1' input pin tied to constant (ext_addr[4]=0).
+[EFX-0266 WARNING] Module Instance 'apb_master1' input pin tied to constant (ext_addr[5]=1).
+[EFX-0266 WARNING] Module Instance 'apb_master1' input pin tied to constant (ext_addr[6]=1).
+[EFX-0266 WARNING] Module Instance 'apb_master1' input pin tied to constant (ext_addr[7]=0).
+[EFX-0266 WARNING] Module Instance 'apb_master1' input pin tied to constant (ext_addr[8]=1).
+[EFX-0266 WARNING] Module Instance 'apb_master1' input pin tied to constant (ext_addr[9]=0).
+[EFX-0266 WARNING] Module Instance 'apb_master1' input pin tied to constant (ext_addr[10]=1).
+[EFX-0266 WARNING] Module Instance 'apb_master1' input pin tied to constant (ext_addr[11]=0).
+[EFX-0266 WARNING] Module Instance 'apb_master1' input pin tied to constant (ext_addr[12]=1).
+[EFX-0266 WARNING] Module Instance 'apb_master1' input pin tied to constant (ext_addr[13]=0).
+[EFX-0266 WARNING] Module Instance 'apb_master1' input pin tied to constant (ext_addr[14]=1).
+[EFX-0266 WARNING] Module Instance 'apb_master1' input pin tied to constant (ext_addr[15]=0).
+[EFX-0266 WARNING] Module Instance 'apb_master1' input pin tied to constant (ext_addr[16]=0).
+[EFX-0266 WARNING] Module Instance 'apb_master1' input pin tied to constant (ext_addr[17]=0).
+[EFX-0266 WARNING] Module Instance 'apb_master1' input pin tied to constant (ext_addr[18]=1).
+[EFX-0266 WARNING] Module Instance 'apb_master1' input pin tied to constant (ext_addr[19]=0).
+[EFX-0266 WARNING] Module Instance 'apb_master1' input pin tied to constant (ext_addr[20]=1).
+[EFX-0266 WARNING] Module Instance 'apb_master1' input pin tied to constant (ext_addr[21]=1).
+[EFX-0266 WARNING] Module Instance 'apb_master1' input pin tied to constant (ext_addr[22]=0).
+[EFX-0266 WARNING] Module Instance 'apb_master1' input pin tied to constant (ext_addr[23]=0).
+[EFX-0266 WARNING] Module Instance 'apb_master1' input pin tied to constant (ext_addr[24]=0).
+[EFX-0266 WARNING] Module Instance 'apb_master1' input pin tied to constant (ext_addr[25]=1).
+[EFX-0266 WARNING] Module Instance 'apb_master1' input pin tied to constant (ext_addr[26]=0).
+[EFX-0266 WARNING] Module Instance 'apb_master1' input pin tied to constant (ext_addr[27]=0).
+[EFX-0266 WARNING] Module Instance 'apb_master1' input pin tied to constant (ext_addr[28]=1).
+[EFX-0266 WARNING] Module Instance 'apb_master1' input pin tied to constant (ext_addr[29]=0).
+[EFX-0266 WARNING] Module Instance 'apb_master1' input pin tied to constant (ext_addr[30]=0).
+[EFX-0266 WARNING] Module Instance 'apb_master1' input pin tied to constant (ext_addr[31]=0).
+[EFX-0266 WARNING] Module Instance 'apb_master1' input pin tied to constant (pstrobe[0]=1).
+[EFX-0266 WARNING] Module Instance 'apb_master1' input pin tied to constant (pstrobe[1]=1).
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'apb_master1.slv_prdata[31]'. (E:\intern\project\apb_final\top.v:87)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'apb_master1.slv_prdata[30]'. (E:\intern\project\apb_final\top.v:87)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'apb_master1.slv_prdata[29]'. (E:\intern\project\apb_final\top.v:87)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'apb_master1.slv_prdata[28]'. (E:\intern\project\apb_final\top.v:87)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'apb_master1.slv_prdata[27]'. (E:\intern\project\apb_final\top.v:87)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'apb_master1.slv_prdata[26]'. (E:\intern\project\apb_final\top.v:87)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'apb_master1.slv_prdata[25]'. (E:\intern\project\apb_final\top.v:87)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'apb_master1.slv_prdata[24]'. (E:\intern\project\apb_final\top.v:87)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'apb_master1.slv_prdata[23]'. (E:\intern\project\apb_final\top.v:87)
+[EFX-0201 WARNING] Re-wiring to GND non-driven net 'apb_master1.slv_prdata[22]'. (E:\intern\project\apb_final\top.v:87)
+[EFX-0201 WARNING] The above message was generated too many times, subsequent similar messages will be muted.
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_rx" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "ctrl_8_32" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "ctrl_8_32" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "sram" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "sram" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "fifo" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "fifo" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "ctrl2" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "ctrl2" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "apb_master" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "apb_master" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "apb_slave" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "apb_slave" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "ctrl_uart" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "ctrl_uart" end (Real time : 1s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_tx" begin
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "uart_tx" end (Real time : 0s)
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "top" begin
+[EFX-0000 INFO] ... Clock Enable Synthesis Performed on 125 flops.
+[EFX-0000 INFO] ... Hierarchical pre-synthesis "top" end (Real time : 0s)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s)
+[EFX-0000 INFO] ... Flat synthesis begin
+[EFX-0000 INFO] ... Flat synthesis end (Real time : 0s)
+[EFX-0000 INFO] ... Flat optimizations begin
+[EFX-0000 INFO] ... Flat optimizations end (Real time : 0s)
+[EFX-0000 INFO] ... Check and break combinational loops begin
+[EFX-0000 INFO] ... Check and break combinational loops end (Real time : 0s)
+[EFX-0000 INFO] ... Sequential Optimization begin
+[EFX-0000 INFO] ... Clock Network clock_w with 242 loads will be considered for sequential optimization.
+[EFX-0000 INFO] ... Sequential Optimization deduced 92 equivalent points.
+[EFX-0000 INFO] ... Sequential Optimization end (Real time : 5s)
+[EFX-0000 INFO] ... SOP modeling begin
+[EFX-0000 INFO] ... SOP modeling end (Real time : 0s)
+[EFX-0000 INFO] ... LUT mapping begin
+[EFX-0000 INFO] ... LS, strategy: 3, nd: 196, ed: 587, lv: 4, pw: 486.17
+[EFX-0000 INFO] ... LUT mapping end (Real time : 1s)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist creation end (Real time : 0s)
+[EFX-0000 INFO] ... Postmap Retiming Optimization begin
+[EFX-0000 INFO] ... Clock Network n4 with 228 loads will be considered for retiming optimization.
+[EFX-0000 INFO] ... Performed 0 retime moves.
+[EFX-0000 INFO] ... Postmap Retiming Optimization end (Real time : 0s)
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing begin
+[EFX-0000 INFO] ... Post-synthesis Verific netlist unification/params processing end (Real time : 0s)
+INFO: ***** Beginning VDB Netlist Checker ... *****
+WARNING: Input/Inout Port clock_r is unconnected and will be removed
+INFO: Found 1 warnings in the post-synthesis netlist.
+INFO: VDB Netlist Checker took 0.0127501 seconds.
+INFO: 	VDB Netlist Checker took 0 seconds (approximately) in total CPU time.
+INFO: VDB Netlist Checker virtual memory usage: begin = 73.9 MB, end = 73.9 MB, delta = 0 MB
+INFO: 	VDB Netlist Checker peak virtual memory usage = 96.668 MB
+INFO: VDB Netlist Checker resident set memory usage: begin = 81.476 MB, end = 81.536 MB, delta = 0.06 MB
+INFO: 	VDB Netlist Checker peak resident set memory usage = 101.028 MB
+INFO: ***** Ending VDB Netlist Checker ... *****
+-- Writing netlist 'top' to Verilog file 'E:/intern/project/apb_final/outflow/apb_final.map.v' (VDB-1030)
+[EFX-0000 INFO] Resource Summary 
+[EFX-0000 INFO] =============================== 
+[EFX-0000 INFO] EFX_ADD         : 	10
+[EFX-0000 INFO] EFX_LUT4        : 	196
+[EFX-0000 INFO] EFX_FF          : 	228
+[EFX-0000 INFO] EFX_RAM_5K      : 	2
+[EFX-0000 INFO] EFX_GBUFCE      : 	1
+[EFX-0000 INFO] =============================== 

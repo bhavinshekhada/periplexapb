@@ -1,0 +1,42 @@
+
+Efinity Interface Designer Timing Report
+Version: 2023.1.150
+Date: 2024-02-26 16:01
+
+Copyright (C) 2017 - 2023 Efinix Inc. All rights reserved.
+
+Device: T120F324
+Project: apb_final
+Timing Model: C4 (final)
+
+---------- 1. GPIO Timing Report (begin) ----------
+
+Non-registered GPIO Configuration:
+===================================
+
++---------------+-------------+-----------+----------+----------+
+| Instance Name |   Pin Name  | Parameter | Max (ns) | Min (ns) |
++---------------+-------------+-----------+----------+----------+
+|    clock_r    |   clock_r   |  GPIO_IN  |  1.476   |  0.738   |
+|    clock_w    |   clock_w   |  GPIO_IN  |  1.476   |  0.738   |
+|  i_Rx_Serial  | i_Rx_Serial |  GPIO_IN  |  1.396   |  0.698   |
+|     reset     |    reset    |  GPIO_IN  |  1.796   |  0.898   |
+|      sel      |     sel     |  GPIO_IN  |  1.636   |  0.818   |
+|     write     |    write    |  GPIO_IN  |  1.716   |  0.858   |
+|  o_Tx_Active  | o_Tx_Active |  GPIO_OUT |  3.829   |  1.915   |
+|   o_Tx_Done   |  o_Tx_Done  |  GPIO_OUT |  3.829   |  1.915   |
+|  o_Tx_Serial  | o_Tx_Serial |  GPIO_OUT |  3.829   |  1.915   |
++---------------+-------------+-----------+----------+----------+
+
+---------- GPIO Timing Report (end) ----------
+
+---------- 2. JTAG Timing Report (begin) ----------
+
++---------------+----------------+-----------+----------+----------+
+| Instance Name |    Pin Name    | Parameter | Max (ns) | Min (ns) |
++---------------+----------------+-----------+----------+----------+
+|   jtag_inst1  | jtag_inst1_TDI |  JTAG_IN  |  2.415   |  1.208   |
+|   jtag_inst1  | jtag_inst1_TMS |  JTAG_IN  |  1.755   |  0.877   |
++---------------+----------------+-----------+----------+----------+
+
+---------- JTAG Timing Report (end) ----------

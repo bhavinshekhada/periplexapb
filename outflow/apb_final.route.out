@@ -1,0 +1,143 @@
+
+Efinix FPGA Placement and Routing.
+Version: 2023.1.150 
+Compiled: Jun 23 2023.
+
+Copyright (C) 2013 - 2023 Efinix Inc. All rights reserved.
+
+
+The Tool Is Based on VPR of University of Toronto,
+a free open source code under MIT license.
+
+
+Running Placement and Routing for Family "Trion", Device "T120F324" ...
+
+***** Beginning stage routing graph generation ... *****
+Read ipin pattern from E:/intern/arch/./ipin_oph.xml
+Finished parsing ipin pattern file 'E:/intern/arch/./ipin_oph.xdb'.
+Finished parsing switch_block file 'E:/intern/arch/.\sb_connectivity_subset.xdb'.
+BuildGraph process took 57.0218 seconds.
+	BuildGraph process took 23.7812 seconds (approximately) in total CPU time.
+BuildGraph process virtual memory usage: begin = 419.54 MB, end = 2534.43 MB, delta = 2114.89 MB
+	BuildGraph process peak virtual memory usage = 2560.56 MB
+BuildGraph process resident set memory usage: begin = 409.952 MB, end = 2072.25 MB, delta = 1662.3 MB
+	BuildGraph process peak resident set memory usage = 2084.54 MB
+check rr_graph process took 1.40517 seconds.
+	check rr_graph process took 0.484375 seconds (approximately) in total CPU time.
+check rr_graph process virtual memory usage: begin = 2749.4 MB, end = 2749.4 MB, delta = 0 MB
+	check rr_graph process peak virtual memory usage = 2808.08 MB
+check rr_graph process resident set memory usage: begin = 1787.63 MB, end = 1575.29 MB, delta = -212.34 MB
+	check rr_graph process peak resident set memory usage = 2130.17 MB
+Generated 6657188 RR nodes and 25261419 RR edges
+This design has 0 global control net(s). See E:/intern/project/apb_final/outflow\apb_final.route.rpt for details.
+Routing graph took 60.1348 seconds.
+	Routing graph took 24.6406 seconds (approximately) in total CPU time.
+Routing graph virtual memory usage: begin = 417.908 MB, end = 2404.53 MB, delta = 1986.62 MB
+	Routing graph peak virtual memory usage = 2808.08 MB
+Routing graph resident set memory usage: begin = 408.876 MB, end = 1684.84 MB, delta = 1275.97 MB
+	Routing graph peak resident set memory usage = 2130.17 MB
+***** Ending stage routing graph generation *****
+
+***** Beginning stage routing ... *****
+
+No SDC file found.  Using default timing constraint of 1 ns.
+NOTE:  Use --sdc_file <SDC_FILE> to override this behavior.
+
+
+ ---------      -------     --------------      -------------
+ Iteration      Overuse     Crit Path (ns)      Calc Time (s)
+ ---------      -------     --------------      -------------
+         1        50291              10.17               10.2
+         2        12860              9.661               9.04
+         3         7373              9.661               7.84
+         4         2998              9.661                 11
+         5          996              9.725                 10
+         6          316              9.725               7.12
+         7          107              9.725               11.9
+         8           31              9.725               12.4
+         9            9              9.725               3.87
+        10            3              9.725               1.38
+        11            1              9.725               1.29
+        12            0              9.725               1.22
+
+Successfully routed netlist after 12 routing iterations and 134191884 heapops
+Completed net delay value cross check successfully.
+
+***** Beginning stage routing check ... *****
+***** Ending stage routing check *****
+
+
+Serial number (magic cookie) for the routing is: 1338552592
+Netlist fully routed.
+
+Successfully created FPGA route file 'E:/intern/project/apb_final/outflow/apb_final.route'
+Routing took 97.9579 seconds.
+	Routing took 46.1719 seconds (approximately) in total CPU time.
+Routing virtual memory usage: begin = 2404.53 MB, end = 2653.33 MB, delta = 248.804 MB
+	Routing peak virtual memory usage = 3203.74 MB
+Routing resident set memory usage: begin = 1684.91 MB, end = 1652.63 MB, delta = -32.28 MB
+	Routing peak resident set memory usage = 2142.25 MB
+***** Ending stage routing *****
+
+***** Beginning stage final timing analysis ... *****
+
+No SDC file found.  Using default timing constraint of 1 ns.
+NOTE:  Use --sdc_file <SDC_FILE> to override this behavior.
+
+
+Cross clock domain timing relationship was detected. Refer to the clocks section of the timing report for more details. You can use set_clock_groups to control how clocks are analyzed.
+Maximum possible analyzed clocks frequency
+  Clock Name   Period (ns)  Frequency (MHz)     Edge
+clock_w           9.845        101.574         (R-R)
+jtag_inst1_TCK    8.669        115.354         (R-R)
+
+Geomean max period: 9.238
+
+Setup (Max) Clock Relationship
+  Launch Clock    Capture Clock   Constraint (ns)     Slack (ns)          Edge
+ clock_w          clock_w              1.000            -8.845           (R-R)
+ clock_w          jtag_inst1_TCK       1.000            -6.891           (R-R)
+ jtag_inst1_TCK   clock_w              1.000            -1.516           (R-R)
+ jtag_inst1_TCK   jtag_inst1_TCK       1.000            -7.669           (R-R)
+
+Hold (Min) Clock Relationship
+  Launch Clock    Capture Clock   Constraint (ns)     Slack (ns)          Edge
+ clock_w          clock_w              0.000             0.119           (R-R)
+ clock_w          jtag_inst1_TCK       0.000             2.682           (R-R)
+ jtag_inst1_TCK   clock_w              0.000            -2.066           (R-R)
+ jtag_inst1_TCK   jtag_inst1_TCK       0.000             0.307           (R-R)
+
+WARNING(1): Clock domain between clock_w (rising) and clock_w (rising) may not meet (slack: -8.845 ns) the setup (max) timing requirement
+WARNING(2): Clock domain between clock_w (rising) and jtag_inst1_TCK (rising) may not meet (slack: -6.891 ns) the setup (max) timing requirement
+WARNING(3): Clock domain between jtag_inst1_TCK (rising) and clock_w (rising) may not meet (slack: -1.516 ns) the setup (max) timing requirement
+WARNING(4): Clock domain between jtag_inst1_TCK (rising) and jtag_inst1_TCK (rising) may not meet (slack: -7.669 ns) the setup (max) timing requirement
+
+WARNING(5): Clock domain between jtag_inst1_TCK (rising) and clock_w (rising) may not meet (slack: -2.066 ns) the hold (min) timing requirement
+
+Write Timing Report to "E:/intern/project/apb_final/outflow\apb_final.timing.rpt" ...
+final timing analysis took 2.70011 seconds.
+	final timing analysis took 1.40625 seconds (approximately) in total CPU time.
+final timing analysis virtual memory usage: begin = 2623.56 MB, end = 2650.1 MB, delta = 26.532 MB
+	final timing analysis peak virtual memory usage = 3203.74 MB
+final timing analysis resident set memory usage: begin = 1712.2 MB, end = 1772.72 MB, delta = 60.52 MB
+	final timing analysis peak resident set memory usage = 2142.25 MB
+***** Ending stage final timing analysis *****
+
+***** Beginning stage bitstream generation ... *****
+Reading core interface constraints from 'E:/intern/project/apb_final/outflow/apb_final.interface.csv'.
+Successfully processed interface constraints file "E:/intern/project/apb_final/outflow/apb_final.interface.csv".
+Finished writing bitstream file E:/intern/project/apb_final/work_pnr\apb_final.lbf.
+Bitstream generation took 8.69124 seconds.
+	Bitstream generation took 2.96875 seconds (approximately) in total CPU time.
+Bitstream generation virtual memory usage: begin = 2650.1 MB, end = 2793.27 MB, delta = 143.176 MB
+	Bitstream generation peak virtual memory usage = 3203.74 MB
+Bitstream generation resident set memory usage: begin = 1772.74 MB, end = 2077.65 MB, delta = 304.908 MB
+	Bitstream generation peak resident set memory usage = 2178.78 MB
+***** Ending stage bitstream generation *****
+
+The entire flow of EFX_PNR took 246.297 seconds.
+	The entire flow of EFX_PNR took 141.828 seconds (approximately) in total CPU time.
+The entire flow of EFX_PNR virtual memory usage: begin = 5.564 MB, end = 298.496 MB, delta = 292.932 MB
+	The entire flow of EFX_PNR peak virtual memory usage = 3203.74 MB
+The entire flow of EFX_PNR resident set memory usage: begin = 12.576 MB, end = 176.06 MB, delta = 163.484 MB
+	The entire flow of EFX_PNR peak resident set memory usage = 2178.78 MB
