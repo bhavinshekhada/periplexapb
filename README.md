@@ -105,8 +105,4 @@ Contributions are welcome! If you would like to add new features or optimize exi
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-```
 
----
-
-You can copy-paste this into your `README.md` file in the GitHub repository and make edits as necessary to fit your project specifics.
