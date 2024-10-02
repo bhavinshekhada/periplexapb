@@ -1,6 +1,3 @@
-Here is the content for the `.md` file format, which can be used as a `README.md` file on GitHub.
-
-```markdown
 # AMBA APB Protocol with UART as Slave on FPGA
 
 ## Project Overview
