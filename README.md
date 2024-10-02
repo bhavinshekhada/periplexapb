@@ -87,14 +87,10 @@ To get started with this project, you'll need the following:
 
 The project includes a testbench for functional simulation. You can simulate the design using your FPGA tool to verify its correctness before deployment. Run the following commands in your simulator environment:
 
-```bash
-# Run simulation
-vsim work.testbench_tb
-```
 
 ### FPGA Board
 
-This project was tested and verified on a [Insert FPGA Board Name]. Make sure to adjust the I/O pin configurations in the constraints file according to your board.
+This project was tested and verified on a VAAMAN a EFINIX FPGA baord. Make sure to adjust the I/O pin configurations in the constraints file according to your board.
 
 ## Future Work
 
