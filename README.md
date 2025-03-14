@@ -6,6 +6,7 @@ This project demonstrates the design and implementation of the AMBA APB (Advance
 
 ## Features
 
+
 - **AMBA APB Protocol Implementation**: A simplified APB master and slave architecture.
 - **UART as APB Slave**: UART module designed as a slave peripheral, responding to the APB master.
 - **APB Master**: Interface to control the UART via read/write operations.
